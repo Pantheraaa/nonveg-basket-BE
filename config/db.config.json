@@ -1,0 +1,35 @@
+{
+    "development": {
+        "username": "root",
+        "password": "Crritrahul@1",
+        "database": "nonveg basket",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "logging": false,
+        "dialectOptions": {
+            "timezone": "local"
+        }
+    },
+    "test":{
+        "username":"root",
+        "password":"Crritrahul@1",
+        "database":"nonveg basket",
+        "host":"127.0.0.1",
+        "dialect":"mysql",
+        "logging":false,
+        "dialectOptions":{
+            "timezone": "local"
+        }
+    },
+    "production":{
+        "username":"root",
+        "password":"Crritrahul@1",
+        "database":"nonveg basket",
+        "host":"127.0.0.1",
+        "dialect":"mysql",
+        "logging":false,
+        "dialectOptions":{
+            "timezone": "local"
+        }
+    }
+}
