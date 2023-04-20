@@ -853,3 +853,24 @@ notNull Violation: User.email cannot be null
 2023-04-19T20:20:04.027Z - [INFO   ] - Server 17725 running on port 8000
 2023-04-19T20:25:48.355Z - [INFO   ] - Server 18528 running on port 8000
 2023-04-19T20:39:10.698Z - [INFO   ] - Server 20523 running on port 8000
+2023-04-20T18:15:58.153Z - [INFO   ] - Server 9574 running on port 8000
+2023-04-20T18:34:16.671Z - [INFO   ] - Server 11606 running on port 8000
+2023-04-20T18:36:26.634Z - [INFO   ] - Server 11783 running on port 8000
+2023-04-20T18:39:30.848Z - [INFO   ] - Server 12282 running on port 8000
+2023-04-20T18:44:06.473Z - [INFO   ] - Server 12826 running on port 8000
+2023-04-20T18:56:37.380Z - [INFO   ] - Server 13410 running on port 8000
+2023-04-20T18:58:13.837Z - [INFO   ] - Server 13540 running on port 8000
+2023-04-20T18:59:20.946Z - [INFO   ] - Server 13668 running on port 8000
+2023-04-20T19:00:05.915Z - [INFO   ] - Server 13775 running on port 8000
+2023-04-20T19:11:40.520Z - [INFO   ] - Server 14383 running on port 8000
+2023-04-20T19:12:32.737Z - [INFO   ] - Server 14487 running on port 8000
+2023-04-20T19:17:18.707Z - [INFO   ] - Server 14787 running on port 8000
+2023-04-20T19:53:17.236Z - [INFO   ] - Server 17855 running on port 8000
+2023-04-20T20:38:54.365Z - [INFO   ] - Server 19126 running on port 8000
+2023-04-20T20:40:26.543Z - [ERROR  ] - Server error: Association with alias "category" does not exist on Product
+2023-04-20T20:41:24.264Z - [INFO   ] - Server 19334 running on port 8000
+2023-04-20T20:41:31.442Z - [ERROR  ] - Server error: Association with alias "categoryId" does not exist on Product
+2023-04-20T20:41:58.541Z - [INFO   ] - Server 19456 running on port 8000
+2023-04-20T20:42:09.055Z - [INFO   ] - Server 19554 running on port 8000
+2023-04-20T20:42:14.409Z - [ERROR  ] - Server error: Association with alias "categories" does not exist on Product
+2023-04-20T20:42:31.399Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'

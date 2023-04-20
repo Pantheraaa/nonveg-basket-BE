@@ -1,10 +1,11 @@
 const { Model } = require("sequelize");
 
 module.exports = (sequelize, DataTypes) => {
-    class ProductCoverImage extends Model { 
-        // static associate({ Product }) {
-        //     this.hasOne(Product, { foreignKey: "productId" });
-        // }
+    class ProductCoverImage extends Model {
+        static associate({ Product }) {
+            this.belongsTo(Product);
+            // this.hasOne(Product, { foreignKey: "id", as: "productId" });
+        }
     };
 
     ProductCoverImage.init({
@@ -14,10 +15,10 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
             primaryKey: true,
         },
-        productId: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
+        // productId: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false
+        // },
         coverImage: {
             type: DataTypes.STRING,
         },

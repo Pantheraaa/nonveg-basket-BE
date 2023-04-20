@@ -26,7 +26,7 @@ class ProductService {
     };
 
     async findAll() {
-        const products = await db.Product.findAll({ paranoid:false, include: ["category"] });
+        const products = await db.Product.findAll({ paranoid:false, include: ["categories"] });
 
         return products;
     };

@@ -2,32 +2,35 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class Product extends Model {
-        static associate({Category, ProductCoverImage}) {
-            this.belongsTo(Category, { foreignKey: "categoryId", as: "category" });
-            // this.hasOne(ProductCoverImage, { foreignKey: "productId" });
+        static associate({ Category, ProductCoverImage, ProductImages, ProductTags }) {
+            // this.belongsTo(Category, { foreignKey: "categoryId", as: "category" });
+            // this.belongsTo(Category, { foreignKey: "categoryId", as: "category" });
+            // this.hasOne(ProductCoverImage, { as: "coverImage" });
+            // this.hasMany(ProductImages, { as: "images" });
+            // this.hasMany(ProductTags, { as: "tags" });
+
+            this.belongsTo(Category);
+            this.hasOne(ProductCoverImage);
+            this.hasMany(ProductImages);
+            this.hasMany(ProductTags);
         }
     }
 
     Product.init({
-        // id: {
-        //     type: DataTypes.STRING,
-        //     allowNull: false,
-        //     // defaultValue: uuid,
-        //     primaryKey: true,
-        //     // required: true,
-        // },
+        id: {
+            type: DataTypes.UUID,
+            defaultValue: DataTypes.UUIDV4,
+            allowNull: false,
+            primaryKey: true,
+        },
         title: {
             type: DataTypes.STRING,
             allowNull: false,
         },
         description: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
         },
-        // categoryId: {
-        //     type: DataTypes.STRING,
-        //     allowNull: false,
-        // },
         quantityPerUnit: {
             type: DataTypes.INTEGER,
             allowNull: false,
