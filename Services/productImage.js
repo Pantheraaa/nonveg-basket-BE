@@ -5,7 +5,7 @@ const ApiError = require("../middlewares/apiError");
 class ProductImageService {
     async insert(productId, image) {
         const insertImage = db.ProductImages.create({
-            productId: productId,
+            ProductId: productId,
             image: image,
         });
     };
@@ -26,13 +26,14 @@ class ProductImageService {
     };
 
     // --------------------This update function will be updated--------------------
-    async update(productId, image) {
-        const updateCoverImage = await db.ProductImages.findAll({ where: { productId: productId} });
+    async update(productId, images) {
+        const updateImages = await db.ProductImages.findAll({ where: { productId: productId} });
 
-        updateCoverImage.coverImage = coverImage;
-        await updateCoverImage.save({ fields: ["coverImage"] });
+        // next line should be change, updateImages treated as object but actually it's an array;
+        updateImages.image = coverImage;
+        await updateImages.save({ fields: ["coverImage"] });
 
-        return updateCoverImage;
+        return updateImages;
     };
 
     // --------------------This delete function will be updated--------------------

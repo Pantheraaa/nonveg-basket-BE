@@ -1,9 +1,11 @@
 const { Model } = require("sequelize");
 
 module.exports = (sequelize, DataTypes) => {
-    class ProductTags extends Model { };
-
-    // Association here:
+    class ProductTags extends Model {
+        static associate({ Product }) {
+            this.belongsTo(Product);
+        };
+    };
 
     ProductTags.init({
         id: {
@@ -11,10 +13,6 @@ module.exports = (sequelize, DataTypes) => {
             defaultValue: DataTypes.UUIDV4,
             allowNull: false,
             primaryKey: true,
-        },
-        productId: {
-            type: DataTypes.STRING,
-            allowNull: false,
         },
         tag: {
             type: DataTypes.STRING,

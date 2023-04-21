@@ -4,7 +4,7 @@ const { UUID } = require("sequelize");
 class ProductTagsService {
     async insert(productId, tag) {
         const newTag = await db.ProductTags.create({
-            productId: productId,
+            ProductId: productId,
             tag: tag,
         });
     }

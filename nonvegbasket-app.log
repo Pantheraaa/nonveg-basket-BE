@@ -853,3 +853,211 @@ notNull Violation: User.email cannot be null
 2023-04-19T20:20:04.027Z - [INFO   ] - Server 17725 running on port 8000
 2023-04-19T20:25:48.355Z - [INFO   ] - Server 18528 running on port 8000
 2023-04-19T20:39:10.698Z - [INFO   ] - Server 20523 running on port 8000
+2023-04-20T18:15:58.153Z - [INFO   ] - Server 9574 running on port 8000
+2023-04-20T18:34:16.671Z - [INFO   ] - Server 11606 running on port 8000
+2023-04-20T18:36:26.634Z - [INFO   ] - Server 11783 running on port 8000
+2023-04-20T18:39:30.848Z - [INFO   ] - Server 12282 running on port 8000
+2023-04-20T18:44:06.473Z - [INFO   ] - Server 12826 running on port 8000
+2023-04-20T18:56:37.380Z - [INFO   ] - Server 13410 running on port 8000
+2023-04-20T18:58:13.837Z - [INFO   ] - Server 13540 running on port 8000
+2023-04-20T18:59:20.946Z - [INFO   ] - Server 13668 running on port 8000
+2023-04-20T19:00:05.915Z - [INFO   ] - Server 13775 running on port 8000
+2023-04-20T19:11:40.520Z - [INFO   ] - Server 14383 running on port 8000
+2023-04-20T19:12:32.737Z - [INFO   ] - Server 14487 running on port 8000
+2023-04-20T19:17:18.707Z - [INFO   ] - Server 14787 running on port 8000
+2023-04-20T19:53:17.236Z - [INFO   ] - Server 17855 running on port 8000
+2023-04-20T20:38:54.365Z - [INFO   ] - Server 19126 running on port 8000
+2023-04-20T20:40:26.543Z - [ERROR  ] - Server error: Association with alias "category" does not exist on Product
+2023-04-20T20:41:24.264Z - [INFO   ] - Server 19334 running on port 8000
+2023-04-20T20:41:31.442Z - [ERROR  ] - Server error: Association with alias "categoryId" does not exist on Product
+2023-04-20T20:41:58.541Z - [INFO   ] - Server 19456 running on port 8000
+2023-04-20T20:42:09.055Z - [INFO   ] - Server 19554 running on port 8000
+2023-04-20T20:42:14.409Z - [ERROR  ] - Server error: Association with alias "categories" does not exist on Product
+2023-04-20T20:42:31.399Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-04-21T15:00:34.601Z - [INFO   ] - Server 7211 running on port 8000
+2023-04-21T15:01:31.913Z - [INFO   ] - Server 7297 running on port 8000
+2023-04-21T15:02:09.710Z - [INFO   ] - Server 7388 running on port 8000
+2023-04-21T15:02:45.443Z - [ERROR  ] - Server error: Association with alias "categories" does not exist on Product
+2023-04-21T15:03:24.399Z - [INFO   ] - Server 7745 running on port 8000
+2023-04-21T15:03:54.301Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-04-21T15:08:17.188Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-04-21T15:10:07.334Z - [INFO   ] - Server 8574 running on port 8000
+2023-04-21T15:10:59.054Z - [INFO   ] - Server 8693 running on port 8000
+2023-04-21T15:11:01.911Z - [ERROR  ] - Server error: WHERE parameter "categories_id" has invalid "undefined" value
+2023-04-21T15:11:08.124Z - [ERROR  ] - Server error: Association with alias "category" does not exist on Product
+2023-04-21T15:11:29.649Z - [INFO   ] - Server 8838 running on port 8000
+2023-04-21T15:11:36.189Z - [INFO   ] - Server 8899 running on port 8000
+2023-04-21T15:16:01.493Z - [INFO   ] - Server 9086 running on port 8000
+2023-04-21T15:16:07.619Z - [INFO   ] - Server 9123 running on port 8000
+2023-04-21T15:16:09.894Z - [INFO   ] - Server 9162 running on port 8000
+2023-04-21T15:16:12.157Z - [INFO   ] - Server 9183 running on port 8000
+2023-04-21T15:16:13.823Z - [INFO   ] - Server 9220 running on port 8000
+2023-04-21T15:16:14.793Z - [INFO   ] - Server 9238 running on port 8000
+2023-04-21T15:17:09.963Z - [INFO   ] - Server 9329 running on port 8000
+2023-04-21T15:17:20.753Z - [INFO   ] - Server 9420 running on port 8000
+2023-04-21T15:18:58.865Z - [INFO   ] - Server 9530 running on port 8000
+2023-04-21T15:19:00.374Z - [INFO   ] - Server 9558 running on port 8000
+2023-04-21T15:19:02.124Z - [INFO   ] - Server 9578 running on port 8000
+2023-04-21T15:20:46.189Z - [INFO   ] - Server 9675 running on port 8000
+2023-04-21T15:20:50.480Z - [ERROR  ] - Server error: Association with alias "coverImage" does not exist on Product
+2023-04-21T15:21:01.974Z - [INFO   ] - Server 9757 running on port 8000
+2023-04-21T15:21:13.418Z - [ERROR  ] - Server error: Association with alias "coverImageId" does not exist on Product
+2023-04-21T15:21:18.607Z - [INFO   ] - Server 9839 running on port 8000
+2023-04-21T15:22:01.511Z - [INFO   ] - Server 9907 running on port 8000
+2023-04-21T15:22:04.067Z - [ERROR  ] - Server error: Association with alias "categories" does not exist on Product
+2023-04-21T15:22:27.933Z - [INFO   ] - Server 9978 running on port 8000
+2023-04-21T15:22:32.253Z - [INFO   ] - Server 10023 running on port 8000
+2023-04-21T15:22:39.986Z - [INFO   ] - Server 10076 running on port 8000
+2023-04-21T15:22:45.476Z - [INFO   ] - Server 10121 running on port 8000
+2023-04-21T15:24:57.111Z - [ERROR  ] - Server error: Unknown column 'Product.categoriesId' in 'where clause'
+2023-04-21T15:25:16.975Z - [INFO   ] - Server 10244 running on port 8000
+2023-04-21T15:25:20.604Z - [ERROR  ] - Server error: WHERE parameter "categoryId" has invalid "undefined" value
+2023-04-21T15:25:37.062Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-04-21T15:27:59.286Z - [INFO   ] - Server 10411 running on port 8000
+2023-04-21T15:28:21.935Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-04-21T15:29:35.286Z - [INFO   ] - Server 10619 running on port 8000
+2023-04-21T15:35:13.966Z - [INFO   ] - Server 10834 running on port 8000
+2023-04-21T15:36:57.129Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-04-21T15:37:39.653Z - [INFO   ] - Server 11012 running on port 8000
+2023-04-21T15:37:49.486Z - [INFO   ] - Server 11083 running on port 8000
+2023-04-21T15:38:08.378Z - [INFO   ] - Server 11144 running on port 8000
+2023-04-21T15:38:13.234Z - [INFO   ] - Server 11177 running on port 8000
+2023-04-21T15:38:19.927Z - [INFO   ] - Server 11227 running on port 8000
+2023-04-21T15:38:43.252Z - [INFO   ] - Server 11292 running on port 8000
+2023-04-21T15:38:48.037Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-04-21T15:38:54.907Z - [INFO   ] - Server 11363 running on port 8000
+2023-04-21T15:40:50.398Z - [INFO   ] - Server 11484 running on port 8000
+2023-04-21T15:40:54.733Z - [INFO   ] - Server 11516 running on port 8000
+2023-04-21T15:47:17.372Z - [INFO   ] - Server 11751 running on port 8000
+2023-04-21T15:48:11.967Z - [INFO   ] - Server 11847 running on port 8000
+2023-04-21T15:48:26.272Z - [INFO   ] - Server 11901 running on port 8000
+2023-04-21T15:48:29.752Z - [INFO   ] - Server 11937 running on port 8000
+2023-04-21T15:48:33.404Z - [INFO   ] - Server 11976 running on port 8000
+2023-04-21T15:49:01.280Z - [INFO   ] - Server 12031 running on port 8000
+2023-04-21T15:49:20.028Z - [ERROR  ] - Server error: Association with alias "Category" does not exist on Product
+2023-04-21T15:50:15.301Z - [INFO   ] - Server 12135 running on port 8000
+2023-04-21T15:50:35.555Z - [ERROR  ] - Server error: Association with alias "Category" does not exist on Product
+2023-04-21T15:51:04.397Z - [INFO   ] - Server 12280 running on port 8000
+2023-04-21T15:51:10.513Z - [ERROR  ] - Server error: Association with alias "Category" does not exist on Product
+2023-04-21T16:23:21.722Z - [INFO   ] - Server 14201 running on port 8000
+2023-04-21T16:25:23.914Z - [INFO   ] - Server 14312 running on port 8000
+2023-04-21T16:25:25.370Z - [INFO   ] - Server 14342 running on port 8000
+2023-04-21T16:25:43.414Z - [ERROR  ] - Server error: ProductCategoryService.insertOne is not a function
+2023-04-21T16:25:54.117Z - [INFO   ] - Server 14464 running on port 8000
+2023-04-21T16:25:56.726Z - [INFO   ] - Server 14500 running on port 8000
+2023-04-21T16:28:51.833Z - [ERROR  ] - Server error: Unknown column 'ProductCategory.productId' in 'where clause'
+2023-04-21T16:29:59.277Z - [INFO   ] - Server 14780 running on port 8000
+2023-04-21T16:30:18.332Z - [ERROR  ] - Server error: Unknown column 'ProductCategory.productId' in 'where clause'
+2023-04-21T16:32:54.660Z - [INFO   ] - Server 14914 running on port 8000
+2023-04-21T16:35:16.556Z - [ERROR  ] - Server error: Unknown column 'ProductCategory.productId' in 'where clause'
+2023-04-21T16:36:02.123Z - [INFO   ] - Server 15073 running on port 8000
+2023-04-21T16:36:47.871Z - [INFO   ] - Server 15141 running on port 8000
+2023-04-21T16:39:01.624Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`productCategory`, CONSTRAINT `productCategory_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-04-21T16:39:27.941Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'findOrCreate')
+2023-04-21T16:42:02.186Z - [INFO   ] - Server 15436 running on port 8000
+2023-04-21T16:55:28.774Z - [INFO   ] - Server 15935 running on port 8000
+2023-04-21T16:58:25.323Z - [INFO   ] - Server 16093 running on port 8000
+2023-04-21T16:58:27.272Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T17:01:17.621Z - [INFO   ] - Server 16290 running on port 8000
+2023-04-21T17:01:20.877Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T17:09:12.185Z - [INFO   ] - Server 16875 running on port 8000
+2023-04-21T17:09:18.058Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T17:09:51.514Z - [INFO   ] - Server 16958 running on port 8000
+2023-04-21T17:09:53.550Z - [ERROR  ] - Server error: Include unexpected. Element has to be either a Model, an Association or an object.
+2023-04-21T18:13:29.757Z - [INFO   ] - Server 18625 running on port 8000
+2023-04-21T18:13:31.785Z - [ERROR  ] - Server error: Include unexpected. Element has to be either a Model, an Association or an object.
+2023-04-21T18:13:54.445Z - [INFO   ] - Server 18677 running on port 8000
+2023-04-21T18:13:55.692Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T18:14:18.479Z - [INFO   ] - Server 18727 running on port 8000
+2023-04-21T18:14:19.998Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T18:14:48.736Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T18:14:55.989Z - [INFO   ] - Server 18805 running on port 8000
+2023-04-21T18:17:44.554Z - [INFO   ] - Server 19059 running on port 8000
+2023-04-21T18:18:21.837Z - [INFO   ] - Server 19127 running on port 8000
+2023-04-21T18:18:44.557Z - [INFO   ] - Server 19178 running on port 8000
+2023-04-21T18:18:45.878Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-04-21T18:19:04.620Z - [INFO   ] - Server 19239 running on port 8000
+2023-04-21T18:19:06.028Z - [ERROR  ] - Server error: Include unexpected. Element has to be either a Model, an Association or an object.
+2023-04-21T18:20:25.834Z - [INFO   ] - Server 19320 running on port 8000
+2023-04-21T18:20:27.545Z - [ERROR  ] - Server error: Include unexpected. Element has to be either a Model, an Association or an object.
+2023-04-21T18:21:30.891Z - [INFO   ] - Server 19391 running on port 8000
+2023-04-21T18:25:19.230Z - [INFO   ] - Server 19579 running on port 8000
+2023-04-21T18:27:31.396Z - [INFO   ] - Server 19691 running on port 8000
+2023-04-21T18:31:29.420Z - [INFO   ] - Server 19910 running on port 8000
+2023-04-21T18:32:13.109Z - [INFO   ] - Server 19980 running on port 8000
+2023-04-21T18:32:36.767Z - [INFO   ] - Server 20028 running on port 8000
+2023-04-21T18:34:59.403Z - [INFO   ] - Server 20273 running on port 8000
+2023-04-21T18:35:01.184Z - [ERROR  ] - Server error: Include unexpected. Element has to be either a Model, an Association or an object.
+2023-04-21T18:35:16.282Z - [INFO   ] - Server 20320 running on port 8000
+2023-04-21T18:36:08.557Z - [INFO   ] - Server 20424 running on port 8000
+2023-04-21T18:37:52.063Z - [INFO   ] - Server 20542 running on port 8000
+2023-04-21T18:39:53.041Z - [INFO   ] - Server 20719 running on port 8000
+2023-04-21T18:40:17.317Z - [INFO   ] - Server 20772 running on port 8000
+2023-04-21T18:40:37.352Z - [INFO   ] - Server 20811 running on port 8000
+2023-04-21T18:41:30.683Z - [ERROR  ] - Server error: Association with alias "category" does not exist on Product
+2023-04-21T18:42:19.426Z - [INFO   ] - Server 20917 running on port 8000
+2023-04-21T18:43:38.151Z - [INFO   ] - Server 21025 running on port 8000
+2023-04-21T18:43:39.866Z - [ERROR  ] - Item not found
+2023-04-21T18:53:00.017Z - [INFO   ] - Server 21905 running on port 8000
+2023-04-21T18:53:03.650Z - [ERROR  ] - Item not found.
+2023-04-21T18:53:06.963Z - [ERROR  ] - Item not found.
+2023-04-21T18:54:14.079Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'findOrCreate')
+2023-04-21T18:55:10.155Z - [INFO   ] - Server 22044 running on port 8000
+2023-04-21T18:56:54.533Z - [INFO   ] - Server 22206 running on port 8000
+2023-04-21T18:56:54.555Z - [INFO   ] - Server 22197 running on port 8000
+2023-04-21T18:57:07.571Z - [INFO   ] - Server 22249 running on port 8000
+2023-04-21T18:57:38.186Z - [INFO   ] - Server 22304 running on port 8000
+2023-04-21T18:58:49.123Z - [ERROR  ] - Category found but not active
+2023-04-21T18:59:25.435Z - [INFO   ] - Server 22399 running on port 8000
+2023-04-21T19:00:00.974Z - [ERROR  ] - Category not found
+2023-04-21T19:11:57.571Z - [ERROR  ] - Category not found
+2023-04-21T19:31:07.425Z - [INFO   ] - Server 24274 running on port 8000
+2023-04-21T19:31:09.539Z - [ERROR  ] - Server error: Assignment to constant variable.
+2023-04-21T19:32:01.350Z - [INFO   ] - Server 24352 running on port 8000
+2023-04-21T19:32:18.808Z - [ERROR  ] - Item not found.
+2023-04-21T19:33:11.346Z - [INFO   ] - Server 24419 running on port 8000
+2023-04-21T19:33:52.041Z - [INFO   ] - Server 24479 running on port 8000
+2023-04-21T19:34:51.120Z - [INFO   ] - Server 24533 running on port 8000
+2023-04-21T19:38:27.366Z - [INFO   ] - Server 24695 running on port 8000
+2023-04-21T19:39:59.236Z - [INFO   ] - Server 24851 running on port 8000
+2023-04-21T19:42:26.310Z - [INFO   ] - Server 25006 running on port 8000
+2023-04-21T19:42:41.996Z - [INFO   ] - Server 25052 running on port 8000
+2023-04-21T19:43:48.358Z - [INFO   ] - Server 25190 running on port 8000
+2023-04-21T19:44:14.916Z - [INFO   ] - Server 25244 running on port 8000
+2023-04-21T19:44:50.868Z - [INFO   ] - Server 25308 running on port 8000
+2023-04-21T19:47:00.905Z - [INFO   ] - Server 25464 running on port 8000
+2023-04-21T19:47:59.768Z - [INFO   ] - Server 25590 running on port 8000
+2023-04-21T19:50:16.928Z - [ERROR  ] - Item not found.
+2023-04-21T19:50:40.732Z - [ERROR  ] - Item not found.
+2023-04-21T19:52:17.252Z - [ERROR  ] - Server error: this.product is not a function
+2023-04-21T19:54:11.325Z - [INFO   ] - Server 25838 running on port 8000
+2023-04-21T20:02:15.187Z - [INFO   ] - Server 26779 running on port 8000
+2023-04-21T20:02:27.639Z - [ERROR  ] - Server error: Field 'title' doesn't have a default value
+2023-04-21T20:04:01.864Z - [INFO   ] - Server 26952 running on port 8000
+2023-04-21T20:04:08.511Z - [ERROR  ] - Server error: Assignment to constant variable.
+2023-04-21T20:04:23.873Z - [INFO   ] - Server 27005 running on port 8000
+2023-04-21T20:05:17.224Z - [INFO   ] - Server 27092 running on port 8000
+2023-04-21T20:05:19.412Z - [ERROR  ] - Server error: notNull Violation: Product.unitPrice cannot be null
+2023-04-21T20:05:51.099Z - [INFO   ] - Server 27136 running on port 8000
+2023-04-21T20:06:34.286Z - [INFO   ] - Server 27197 running on port 8000
+2023-04-21T20:12:25.265Z - [INFO   ] - Server 27436 running on port 8000
+2023-04-21T20:13:00.472Z - [INFO   ] - Server 27486 running on port 8000
+2023-04-21T20:13:45.524Z - [INFO   ] - Server 27562 running on port 8000
+2023-04-21T20:21:01.838Z - [INFO   ] - Server 28179 running on port 8000
+2023-04-21T20:25:18.319Z - [INFO   ] - Server 28466 running on port 8000
+2023-04-21T20:25:51.009Z - [INFO   ] - Server 28546 running on port 8000
+2023-04-21T20:26:20.698Z - [ERROR  ] - Server error: Assignment to constant variable.
+2023-04-21T20:26:41.927Z - [INFO   ] - Server 28619 running on port 8000
+2023-04-21T20:28:25.479Z - [INFO   ] - Server 28774 running on port 8000
+2023-04-21T20:43:00.102Z - [INFO   ] - Server 29658 running on port 8000
+2023-04-21T20:43:25.551Z - [ERROR  ] - Server error: Unknown column 'ProductCategory.productId' in 'where clause'
+2023-04-21T20:43:56.431Z - [INFO   ] - Server 29743 running on port 8000
+2023-04-21T20:44:01.984Z - [ERROR  ] - Server error: Assignment to constant variable.
+2023-04-21T20:44:18.738Z - [INFO   ] - Server 29800 running on port 8000
+2023-04-21T20:48:40.023Z - [ERROR  ] - Item not found.
+2023-04-21T20:48:42.194Z - [ERROR  ] - Item not found.
+2023-04-21T20:49:50.196Z - [INFO   ] - Server 30077 running on port 8000
+2023-04-21T20:49:53.946Z - [ERROR  ] - Item not found.
+2023-04-21T20:50:59.381Z - [ERROR  ] - Item not found.
+2023-04-21T20:51:25.611Z - [INFO   ] - Server 30190 running on port 8000
+2023-04-21T20:51:59.464Z - [INFO   ] - Server 30253 running on port 8000

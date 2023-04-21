@@ -9,7 +9,7 @@ class ProductCoverImageService {
             throw ApiError.alreadyExists("Cover image already exists of this product");
 
         const insertCoverImage = db.ProductCoverImage.create({
-            productId: productId,
+            ProductId: productId,
             coverImage: coverImage,
         });
 
@@ -23,10 +23,13 @@ class ProductCoverImageService {
     };
 
     async update(productId, coverImage) {
-        const updateCoverImage = await db.ProductCoverImage.findAll({ where: { productId: productId } });
+        let updateCoverImage = await db.ProductCoverImage.findOne({ where: { productId: productId } });
 
-        updateCoverImage.coverImage = coverImage;
-        await updateCoverImage.save({ fields: ["coverImage"] });
+        // updateCoverImage.coverImage = coverImage;
+        // await updateCoverImage.save({ fields: ["coverImage"] });
+
+        updateCoverImage.set({ coverImage: coverImage });
+        updateCoverImage = await updateCoverImage.save();
 
         return updateCoverImage;
     };
@@ -36,7 +39,7 @@ class ProductCoverImageService {
 
         if (!updateCoverImage)
             throw ApiError.notFound("Cover image not found");
-        
+
         const deletedCoverImage = await db.ProductCoverImage.destroy({ where: { productId: productId } });
 
         return deletedCoverImage;
