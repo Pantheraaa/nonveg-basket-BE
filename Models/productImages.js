@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
         static associate({ Product }) {
             this.belongsTo(Product);
             // this.hasOne(Product, { foreignKey: "id", as: "productId" });
-        }
+        };
     };
 
     ProductImages.init({

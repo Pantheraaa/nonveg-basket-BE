@@ -2,9 +2,9 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class Category extends Model {
-        static associate({ Product }) {
-            this.hasMany(Product);
-        }
+        static associate({ ProductCategory }) {
+            this.hasMany(ProductCategory);
+        };
     };
 
     Category.init({
@@ -26,10 +26,13 @@ module.exports = function (sequelize, DataTypes) {
         {
             sequelize,
             tableName: "categories",
-            modelName: "Category",
+            modelName: "Categories",
             underscored: true,
             timestamps: true,
             paranoid: true,
+            defaultScope: {
+                attributes: { exclude: ["active", "createdAt", "updatedAt", "deletedAt"] }
+            }
         });
 
     return Category;

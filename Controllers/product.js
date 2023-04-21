@@ -1,3 +1,4 @@
+const { response } = require("express");
 const { productImages } = require("../helpers/productImages");
 const ApiError = require("../middlewares/apiError");
 const Response = require("../middlewares/response");
@@ -5,10 +6,7 @@ const ProductService = require("../Services/product");
 
 // Setup multer:
 const newProduct = async (req, res) => {
-    const { coverImage, images } = productImages(req.files);
-    let data = req.body;
-    data.images = images;
-    data.coverImage = coverImage;
+    const data = productImages(req.body, req.files);
     try {
         const result = await ProductService.create(data);
 
@@ -25,7 +23,7 @@ const getProducts = async (req, res) => {
     try {
         const result = await ProductService.findAll();
 
-        return Response.success(res, `${result.length} Product(s) found.`, result);
+        return Response.success(res, `${result.length} Item(s) found.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
@@ -38,7 +36,7 @@ const getActiveProducts = async (req, res) => {
     try {
         const result = await ProductService.findAllActive();
 
-        return Response.success(res, `${result.length} Product(s) found.`, result);
+        return Response.success(res, `${result.length} Item(s) found.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
@@ -52,7 +50,7 @@ const getOneProduct = async (req, res) => {
     try {
         const result = await ProductService.findOne(productId);
 
-        return Response.success(res, `Product found.`, result);
+        return Response.success(res, `Item found.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
@@ -63,11 +61,11 @@ const getOneProduct = async (req, res) => {
 
 const updateProduct = async (req, res) => {
     const productId = req.params.productId
-    const data = req.body;
+    const data = productImages(req.body, req.files);
     try {
         const result = await ProductService.update(productId, data);
 
-        return Response.success(res, `Product updated successfully.`, result);
+        return Response.success(res, `Item updated successfully.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
@@ -76,10 +74,22 @@ const updateProduct = async (req, res) => {
     };
 };
 
+const deleteProduct = async (req, res) => {
+    const productId = req.params.productId;
+    try {
+        const result = await ProductService.delete(productId);
+
+        return response.success(res, "Item was deleted successfully");
+    } catch (err) {
+
+    }
+}
+
 module.exports = {
     newProduct,
     getProducts,
     getActiveProducts,
     getOneProduct,
     updateProduct,
+    deleteProduct
 }

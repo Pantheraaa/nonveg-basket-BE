@@ -72,26 +72,10 @@ const deleteCategory = async (req, res) => {
     }
 };
 
-const getCategoriesProducts = async (req, res) => {
-    const categoryId = req.params.categoryId;
-    try {
-        const result = await CategoryService.findCategoryProducts(categoryId);
-
-        return Response.success(res, `${result.length} category(s) products found`, result);
-    } catch (err) {
-        if (err instanceof ApiError)
-            return Response.error(res, err);
-
-        return Response.error(res, ApiError.internal(err));
-    }
-};
-
-
 module.exports = {
     newCategory,
     getCategories,
     getCategoryById,
     updateCategory,
     deleteCategory,
-    getCategoriesProducts
 }

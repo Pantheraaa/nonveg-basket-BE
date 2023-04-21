@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     class ProductTags extends Model {
         static associate({ Product }) {
             this.belongsTo(Product);
-        }
+        };
     };
 
     ProductTags.init({
