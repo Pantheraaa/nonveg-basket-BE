@@ -13,7 +13,7 @@ const productImages = (body, files) => {
 
     if (coverImage) body.coverImage = coverImage[0]?.path;
     if (productImages.length) body.images = productImages;
-    
+
     return body;
 };
 
