@@ -2,19 +2,24 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class User extends Model {
-        static associate() { };
+        static associate({ UserCart }) {
+            this.hasMany(UserCart);
+        };
     };
 
     User.init({
         id: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.UUID,
+            defaultValue: DataTypes.UUIDV4,
             allowNull: false,
-            autoIncrement: true,
             primaryKey: true,
         },
-        name: {
+        firstName: {
             type: DataTypes.STRING,
             allowNull: false,
+        },
+        lastName: {
+            type: DataTypes.STRING,
         },
         mobile: {
             type: DataTypes.STRING,
@@ -26,24 +31,27 @@ module.exports = function (sequelize, DataTypes) {
             allowNull: false,
             unique: true
         },
-        address: {
+        password: {
             type: DataTypes.STRING,
         },
-        city: {
-            type: DataTypes.STRING,
-        },
-        district: {
-            type: DataTypes.STRING,
-        },
-        state: {
-            type: DataTypes.STRING,
-        },
-        country: {
-            type: DataTypes.STRING,
-        },
-        zipCode: {
-            type: DataTypes.INTEGER,
-        },
+        // address: {
+        //     type: DataTypes.STRING,
+        // },
+        // city: {
+        //     type: DataTypes.STRING,
+        // },
+        // district: {
+        //     type: DataTypes.STRING,
+        // },
+        // state: {
+        //     type: DataTypes.STRING,
+        // },
+        // country: {
+        //     type: DataTypes.STRING,
+        // },
+        // zipCode: {
+        //     type: DataTypes.INTEGER,
+        // },
         active: {
             type: DataTypes.BOOLEAN,
             allowNull: false,

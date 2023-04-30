@@ -6,6 +6,8 @@ const ProductService = require("../Services/product");
 
 // Setup multer:
 const newProduct = async (req, res) => {
+    console.log("Body", req.body);
+    console.log("Files", req.files);
     const data = productImages(req.body, req.files);
     try {
         const result = await ProductService.create(data);

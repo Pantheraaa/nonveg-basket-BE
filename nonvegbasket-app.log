@@ -1061,3 +1061,18 @@ notNull Violation: User.email cannot be null
 2023-04-21T20:50:59.381Z - [ERROR  ] - Item not found.
 2023-04-21T20:51:25.611Z - [INFO   ] - Server 30190 running on port 8000
 2023-04-21T20:51:59.464Z - [INFO   ] - Server 30253 running on port 8000
+2023-04-21T21:01:46.890Z - [INFO   ] - Server 32108 running on port 8000
+2023-04-22T09:08:03.931Z - [INFO   ] - Server 24308 running on port 8000
+2023-04-22T09:10:45.175Z - [INFO   ] - Server 24677 running on port 8000
+2023-04-22T09:11:29.832Z - [INFO   ] - Server 24877 running on port 8000
+2023-04-22T09:11:32.722Z - [INFO   ] - Server 24927 running on port 8000
+2023-04-22T09:11:37.648Z - [INFO   ] - Server 25000 running on port 8000
+2023-04-22T09:11:40.694Z - [INFO   ] - Server 25037 running on port 8000
+2023-04-22T09:11:47.675Z - [INFO   ] - Server 25150 running on port 8000
+2023-04-22T13:43:06.792Z - [INFO   ] - Server 6189 running on port 8000
+2023-04-22T13:49:06.920Z - [INFO   ] - Server 7683 running on port 8000
+2023-04-22T14:14:07.410Z - [ERROR  ] - Server error: WHERE parameter "description" has invalid "undefined" value
+2023-04-22T14:18:20.909Z - [ERROR  ] - Server error: WHERE parameter "description" has invalid "undefined" value
+2023-04-22T14:18:45.890Z - [ERROR  ] - Server error: WHERE parameter "description" has invalid "undefined" value
+2023-04-22T14:20:11.500Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`productCategory`, CONSTRAINT `productCategory_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-04-22T14:24:47.620Z - [ERROR  ] - Server error: Cannot destructure property 'Category' of 'item.ProductCategory' as it is null.
