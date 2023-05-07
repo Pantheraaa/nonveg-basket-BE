@@ -5,3 +5,5 @@ const { createCart, findUserCart, removeFromCart } = require("../Controllers/use
 router.post("/", createCart);
 router.get("/:userId", findUserCart);
 router.delete("/:userId/:productId", removeFromCart);
+
+module.exports = router;
