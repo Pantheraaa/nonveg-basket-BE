@@ -1,9 +1,9 @@
 const { Model } = require("sequelize");
 
 module.exports = (sequelize, DataTypes) => {
-    class UserCart extends Model{
-        static associate({User, Product}) {
-            this.belongsTo(User);
+    class UserCart extends Model {
+        static associate({ User, Product }) {
+            // this.belongsTo(User);
             this.belongsTo(Product);
         };
     };
@@ -24,7 +24,4 @@ module.exports = (sequelize, DataTypes) => {
         });
     
     return UserCart;
-}
-
-
-// id, userid, productId, paranoid
+};

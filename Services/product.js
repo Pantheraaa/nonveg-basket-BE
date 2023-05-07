@@ -13,9 +13,9 @@ class ProductService {
                 title: data.title,
                 description: data.description,
                 // categoryId: data.categoryId,
-                quantityPerUnit: data.quantityPerUnit,
-                unitPrice: data.unitPrice,
-                sellPrice: data.sellPrice,
+                quantityPerUnit: data.quantityPerUnit * 1,
+                unitPrice: data.unitPrice * 1,
+                sellPrice: data.sellPrice * 1,
                 weight: data.weight,
             }
         });
@@ -23,15 +23,15 @@ class ProductService {
         if (!created) return product;
 
         const insertCategory = await ProductCategoryService.insert(product.id, data.categoryId);
-        const insertImages = await ProductImageService.insertMany(product.id, data.images);
+        // const insertImages = await ProductImageService.insertMany(product.id, data.images);
         const insertTags = await ProductTagsService.insertMany(product.id, data.tags);
-        const insertCoverImage = await ProductCoverImageService.insert(product.id, data.coverImage);
+        // const insertCoverImage = await ProductCoverImageService.insert(product.id, data.coverImage);
 
         return product
     };
 
     async findAll() {
-        const products = await db.Product.findAll({ paranoid: false });
+        const products = await db.Product.findAll();
 
         for (let product of products) {
             product = this.formatProducts(product);
@@ -41,13 +41,13 @@ class ProductService {
     };
 
     async findAllActive() {
-        const products = await db.Product.findAll({ where: { active: true }, paranoid: false });
+        const products = await db.Product.findAll({ where: { active: true } });
 
         return products;
     };
 
     async findOne(productId) {
-        let product = await db.Product.findOne({ where: { id: productId }, paranoid: false });
+        let product = await db.Product.findOne({ where: { id: productId } });
 
         if (!product)
             throw ApiError.notFound("Item not found.");
@@ -81,11 +81,11 @@ class ProductService {
     }
 
     formatProducts(item) {
-        const { Category } = item.ProductCategory;
+        const { Category } = item.ProductCategory || {};
         item.category = Category.category;
         delete item.ProductCategory;
 
-        const { coverImage } = item.ProductCoverImage;
+        const { coverImage } = item.ProductCoverImage || {};
         item.coverImage = coverImage;
         delete item.ProductCoverImage;
 

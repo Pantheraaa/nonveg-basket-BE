@@ -20,10 +20,12 @@ const findUserCart = async (req, res) => {
     const userId = req.params.userId;
     try {
         const result = await UserCartService.findByUserId(userId);
+
+        return Response.success(res, `${result.length} cart items found successfully.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
-        
+
         return Response.error(res, ApiError.internal(err));
     };
 };
@@ -32,13 +34,13 @@ const removeFromCart = async (req, res) => {
     const { userId, productId } = req.params;
     try {
         const result = await UserCartService.remove(userId, productId);
-        
+
         return Response.success(res, "Item removed from cart.");
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
-        
-        return Response.error(res, ApiError.internal(err));        
+
+        return Response.error(res, ApiError.internal(err));
     }
 }
 

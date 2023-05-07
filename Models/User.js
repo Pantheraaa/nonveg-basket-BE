@@ -2,8 +2,8 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class User extends Model {
-        static associate({ UserCart }) {
-            this.hasMany(UserCart);
+        static associate({ Shop }) {
+            this.belongsTo(Shop);
         };
     };
 
@@ -14,12 +14,9 @@ module.exports = function (sequelize, DataTypes) {
             allowNull: false,
             primaryKey: true,
         },
-        firstName: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false,
-        },
-        lastName: {
-            type: DataTypes.STRING,
         },
         mobile: {
             type: DataTypes.STRING,
@@ -33,6 +30,11 @@ module.exports = function (sequelize, DataTypes) {
         },
         password: {
             type: DataTypes.STRING,
+        },
+        userType: {
+            type: DataTypes.ENUM,
+            values: ["Super admin", "Admin"],
+            defaultValue: "Admin"
         },
         // address: {
         //     type: DataTypes.STRING,
@@ -61,7 +63,11 @@ module.exports = function (sequelize, DataTypes) {
         sequelize,
         tableName: "users",
         modelName: "User",
-        paranoid: true
+        paranoid: true,
+        defaultScope: {
+            include: ["Shop"],
+            attributes: { exclude: ["createdAt", "updatedAt", "deletedAt", "password", "ShopId"] }
+        }
     }
     );
     return User;

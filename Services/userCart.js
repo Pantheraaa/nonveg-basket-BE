@@ -3,7 +3,7 @@ const db = require("../Models");
 class UserCartService {
     async create({ userId, productId }) {
         const newCart = await db.UserCart.create({
-            userId: userId,
+            UserId: userId,
             ProductId: productId
         });
 
@@ -11,7 +11,7 @@ class UserCartService {
     };
 
     async findByUserId(userId) {
-        const cart = await db.UserCart.findOne({ userId: userId });
+        const cart = await db.UserCart.findAll({where: { userId: userId}, include: ["Product"] });
 
         return cart;
     };
