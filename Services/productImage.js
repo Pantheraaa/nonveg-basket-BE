@@ -8,6 +8,8 @@ class ProductImageService {
             ProductId: productId,
             image: image,
         });
+
+        return true;
     };
 
     async insertMany(productId, images) {
@@ -27,18 +29,27 @@ class ProductImageService {
 
     // --------------------This update function will be updated--------------------
     async update(productId, images) {
-        const updateImages = await db.ProductImages.findAll({ where: { productId: productId} });
+        // const updateImages = await db.ProductImages.findAll({ where: { productId: productId} });
 
         // next line should be change, updateImages treated as object but actually it's an array;
-        updateImages.image = coverImage;
-        await updateImages.save({ fields: ["coverImage"] });
+        // updateImages.image = coverImage;
+        // await updateImages.save({ fields: ["coverImage"] });
+
+        // Removing old images, uploading new:
+        await this.deleteAll(productId);
+        const updateImages = await this.insertMany(productId, images);
 
         return updateImages;
     };
 
+    async deleteAll(productId) {
+        const deletedImages = await db.ProductImages.destroy({ where: { ProductId: productId } });
+        return true;
+    }
+
     // --------------------This delete function will be updated--------------------
-    async delete(imageId) {
-        const deletedCoverImage = await db.ProductImages.destroy({ where: { id: imageId } });
+    async deleteOne(imageId) {
+        const deletedImage = await db.ProductImages.destroy({ where: { id: imageId } });
 
         return true;
     }

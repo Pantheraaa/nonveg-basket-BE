@@ -6,8 +6,6 @@ const ProductService = require("../Services/product");
 
 // Setup multer:
 const newProduct = async (req, res) => {
-    console.log("Body", req.body);
-    console.log("Files", req.files);
     const data = productImages(req.body, req.files);
     try {
         const result = await ProductService.create(data);
@@ -48,7 +46,7 @@ const getActiveProducts = async (req, res) => {
 };
 
 const getOneProduct = async (req, res) => {
-    const productId = req.params.productId
+    const productId = req.params.productId;
     try {
         const result = await ProductService.findOne(productId);
 
@@ -62,10 +60,24 @@ const getOneProduct = async (req, res) => {
 }
 
 const updateProduct = async (req, res) => {
-    const productId = req.params.productId
+    const productId = req.params.productId;
     const data = productImages(req.body, req.files);
     try {
         const result = await ProductService.update(productId, data);
+
+        return Response.success(res, `Item updated successfully.`, result);
+    } catch (err) {
+        if (err instanceof ApiError)
+            return Response.error(res, err);
+
+        return Response.error(res, ApiError.internal(err));
+    };
+};
+
+const updateProductStatus = async (req, res) => {
+    const productId = req.params.productId;
+    try {
+        const result = await ProductService.updateStatus(productId);
 
         return Response.success(res, `Item updated successfully.`, result);
     } catch (err) {
@@ -81,9 +93,12 @@ const deleteProduct = async (req, res) => {
     try {
         const result = await ProductService.delete(productId);
 
-        return response.success(res, "Item was deleted successfully");
+        return Response.success(res, "Item was deleted successfully");
     } catch (err) {
+        if (err instanceof ApiError)
+            return Response.error(res, err);
 
+        return Response.error(res, ApiError.internal(err));
     }
 }
 
@@ -93,5 +108,6 @@ module.exports = {
     getActiveProducts,
     getOneProduct,
     updateProduct,
+    updateProductStatus,
     deleteProduct
 }

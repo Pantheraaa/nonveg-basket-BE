@@ -7,7 +7,7 @@ module.exports = function (sequelize, DataTypes) {
             this.hasOne(ProductCategory);
             this.hasOne(ProductCoverImage);
             this.hasMany(ProductImages);
-            this.hasMany(ProductTags);
+            // this.hasMany(ProductTags);
         };
     }
 
@@ -57,7 +57,7 @@ module.exports = function (sequelize, DataTypes) {
             paranoid: true,
             underscored: true,
             defaultScope: {
-                include: ["ProductCategory", "ProductCoverImage", "ProductImages", "ProductTags"],
+                include: ["ProductCategory", "ProductCoverImage", "ProductImages"],
                 attributes: { exclude: ["createdAt", "updatedAt", "deletedAt"] }
             }
         });
