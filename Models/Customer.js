@@ -1,13 +1,13 @@
 const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
-    class User extends Model {
-        static associate({ Shop }) {
-            this.belongsTo(Shop);
+    class Customer extends Model {
+        static associate({ Basket }) {
+            this.hasOne(Basket);
         };
     };
 
-    User.init({
+    Customer.init({
         id: {
             type: DataTypes.UUID,
             defaultValue: DataTypes.UUIDV4,
@@ -16,7 +16,8 @@ module.exports = function (sequelize, DataTypes) {
         },
         name: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
+            // defaultValue:""
         },
         mobile: {
             type: DataTypes.STRING,
@@ -25,32 +26,30 @@ module.exports = function (sequelize, DataTypes) {
         },
         email: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
+            // defaultValue:"",
             unique: true
         },
-        password: {
+        pin: {
             type: DataTypes.STRING,
+            allowNull: true,
         },
-        userType: {
-            type: DataTypes.ENUM,
-            values: ["Super admin", "Admin"],
-            defaultValue: "Admin"
-        },
-        active: {
+        isVerified: {
             type: DataTypes.BOOLEAN,
             allowNull: false,
-            defaultValue: true,
+            defaultValue: false,
         },
     }, {
         sequelize,
-        tableName: "users",
-        modelName: "User",
+        tableName: "customers",
+        modelName: "Customer",
         paranoid: true,
+        underscored: true,
+        timestamps: true,
         defaultScope: {
-            include: ["Shop"],
-            attributes: { exclude: ["createdAt", "updatedAt", "deletedAt", "password", "ShopId"] }
+            attributes: { exclude: ["createdAt", "updatedAt", "deletedAt"] }
         }
     }
     );
-    return User;
+    return Customer;
 };

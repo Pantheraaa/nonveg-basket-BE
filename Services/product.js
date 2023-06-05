@@ -5,7 +5,7 @@ const ProductImageService = require("../Services/productImage");
 const ProductTagsService = require("../Services/productTags");
 const ProductCategoryService = require("../Services/productCategory");
 const ApiError = require("../middlewares/apiError");
-
+const CategoryService = require("./category");
 class ProductService {
     async create(data) {
         const [product, created] = await db.Product.findOrCreate({
@@ -39,8 +39,30 @@ class ProductService {
         return products;
     };
 
-    async findAllActive() {
-        const products = await db.Product.findAll({ where: { active: true } });
+    async findAllActive(category) {
+        let products;
+        const categoryId = await CategoryService.findCategoryIdByName(category);
+        if (categoryId) {
+            products = await db.sequelize.query(
+                `SELECT p.*, pci.coverImage, pc.category_id
+            FROM products as p
+            JOIN
+                productcoverimage as pci
+                ON pci.ProductId = p.id
+            JOIN
+                productcategory as pc
+                ON pc.product_id = p.id
+            WHERE
+                pc.category_id = "${categoryId}"
+                AND p.active = 1
+                AND p.deleted_at is NULL;`, { type: db.sequelize.QueryTypes.SELECT }
+            )
+        } else {
+            products = await db.Product.findAll({ where: { active: true } });
+            for (let product of products) {
+                product = this.formatProducts(product.dataValues);
+            }
+        };
 
         return products;
     };

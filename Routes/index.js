@@ -6,6 +6,7 @@ const category = require("./category.js");
 const cart = require("./userCart.js");
 const path = require("path");
 const shop = require("./shop.js");
+const customer = require("./customer.js");
 
 function routes(app) {
     app.use(express.json());
@@ -15,7 +16,8 @@ function routes(app) {
     app.use(ENDPOINT + '/category', category);
     app.use(ENDPOINT + '/cart', cart);
     app.use(ENDPOINT + '/shop', shop);
-    
+    app.use(ENDPOINT + '/customer', customer);
+
     app.use(ENDPOINT + '/storage/uploads', express.static(path.join(__dirname, "../uploads")));
 };
 

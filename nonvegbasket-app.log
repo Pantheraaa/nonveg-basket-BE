@@ -1776,3 +1776,373 @@ notNull Violation: User.email cannot be null
 2023-06-04T10:54:53.081Z - [INFO   ] - Server 4960 running on port 8000
 2023-06-04T10:54:57.029Z - [INFO   ] - Server 5664 running on port 8000
 2023-06-04T10:55:44.788Z - [INFO   ] - Server 7000 running on port 8000
+2023-06-04T11:03:04.821Z - [INFO   ] - Server 4824 running on port 8000
+2023-06-04T11:05:45.817Z - [INFO   ] - Server 9592 running on port 8000
+2023-06-04T11:05:48.881Z - [INFO   ] - Server 9136 running on port 8000
+2023-06-04T11:05:52.259Z - [INFO   ] - Server 6672 running on port 8000
+2023-06-04T11:06:11.027Z - [INFO   ] - Server 4208 running on port 8000
+2023-06-04T11:06:23.744Z - [INFO   ] - Server 10204 running on port 8000
+2023-06-04T11:06:32.255Z - [INFO   ] - Server 5640 running on port 8000
+2023-06-04T11:06:36.421Z - [INFO   ] - Server 4548 running on port 8000
+2023-06-04T11:06:41.004Z - [INFO   ] - Server 3988 running on port 8000
+2023-06-04T11:06:45.956Z - [INFO   ] - Server 1840 running on port 8000
+2023-06-04T11:06:50.980Z - [INFO   ] - Server 5616 running on port 8000
+2023-06-04T11:07:16.994Z - [INFO   ] - Server 7804 running on port 8000
+2023-06-04T11:07:19.699Z - [INFO   ] - Server 12028 running on port 8000
+2023-06-04T11:07:24.938Z - [INFO   ] - Server 6332 running on port 8000
+2023-06-04T11:07:29.596Z - [INFO   ] - Server 7204 running on port 8000
+2023-06-04T11:07:33.757Z - [INFO   ] - Server 3664 running on port 8000
+2023-06-04T11:07:55.234Z - [INFO   ] - Server 1080 running on port 8000
+2023-06-04T11:07:57.845Z - [INFO   ] - Server 11912 running on port 8000
+2023-06-04T11:08:03.585Z - [INFO   ] - Server 9012 running on port 8000
+2023-06-04T11:08:07.414Z - [INFO   ] - Server 5604 running on port 8000
+2023-06-04T11:08:12.095Z - [INFO   ] - Server 10248 running on port 8000
+2023-06-04T11:08:24.841Z - [INFO   ] - Server 5680 running on port 8000
+2023-06-04T11:08:28.485Z - [INFO   ] - Server 704 running on port 8000
+2023-06-04T11:08:34.195Z - [INFO   ] - Server 6132 running on port 8000
+2023-06-04T11:08:39.898Z - [INFO   ] - Server 11832 running on port 8000
+2023-06-04T11:08:45.135Z - [INFO   ] - Server 5868 running on port 8000
+2023-06-04T11:08:51.876Z - [INFO   ] - Server 2868 running on port 8000
+2023-06-04T11:08:55.302Z - [INFO   ] - Server 4348 running on port 8000
+2023-06-04T11:09:01.093Z - [INFO   ] - Server 7696 running on port 8000
+2023-06-04T11:09:03.944Z - [INFO   ] - Server 10292 running on port 8000
+2023-06-04T11:09:13.727Z - [INFO   ] - Server 4208 running on port 8000
+2023-06-04T11:09:16.351Z - [INFO   ] - Server 7808 running on port 8000
+2023-06-04T11:09:23.896Z - [INFO   ] - Server 2248 running on port 8000
+2023-06-04T11:09:32.731Z - [INFO   ] - Server 4980 running on port 8000
+2023-06-04T11:09:37.335Z - [INFO   ] - Server 4920 running on port 8000
+2023-06-04T11:10:05.851Z - [INFO   ] - Server 5132 running on port 8000
+2023-06-04T11:10:12.191Z - [INFO   ] - Server 8596 running on port 8000
+2023-06-04T11:10:15.280Z - [INFO   ] - Server 7292 running on port 8000
+2023-06-04T11:10:22.473Z - [INFO   ] - Server 10440 running on port 8000
+2023-06-04T11:10:27.017Z - [INFO   ] - Server 12216 running on port 8000
+2023-06-04T11:10:35.830Z - [INFO   ] - Server 3620 running on port 8000
+2023-06-04T11:10:40.139Z - [INFO   ] - Server 6556 running on port 8000
+2023-06-04T11:10:50.952Z - [INFO   ] - Server 8596 running on port 8000
+2023-06-04T11:11:03.252Z - [INFO   ] - Server 10672 running on port 8000
+2023-06-04T11:11:09.724Z - [INFO   ] - Server 11840 running on port 8000
+2023-06-04T11:11:32.508Z - [INFO   ] - Server 2496 running on port 8000
+2023-06-04T11:11:39.017Z - [INFO   ] - Server 11132 running on port 8000
+2023-06-04T11:11:45.295Z - [INFO   ] - Server 11808 running on port 8000
+2023-06-04T11:12:01.571Z - [INFO   ] - Server 4308 running on port 8000
+2023-06-04T11:12:04.129Z - [INFO   ] - Server 11940 running on port 8000
+2023-06-04T11:12:12.253Z - [INFO   ] - Server 5592 running on port 8000
+2023-06-04T11:12:14.736Z - [INFO   ] - Server 6488 running on port 8000
+2023-06-04T11:12:21.508Z - [INFO   ] - Server 8564 running on port 8000
+2023-06-04T11:12:41.154Z - [INFO   ] - Server 8888 running on port 8000
+2023-06-04T11:13:12.080Z - [INFO   ] - Server 3600 running on port 8000
+2023-06-04T11:13:15.745Z - [INFO   ] - Server 10364 running on port 8000
+2023-06-04T11:13:18.572Z - [INFO   ] - Server 9748 running on port 8000
+2023-06-04T11:13:23.553Z - [INFO   ] - Server 2240 running on port 8000
+2023-06-04T11:14:04.628Z - [INFO   ] - Server 9876 running on port 8000
+2023-06-04T11:14:24.376Z - [INFO   ] - Server 11636 running on port 8000
+2023-06-04T11:14:28.151Z - [INFO   ] - Server 6912 running on port 8000
+2023-06-04T11:14:46.204Z - [INFO   ] - Server 8672 running on port 8000
+2023-06-04T11:15:04.074Z - [INFO   ] - Server 6172 running on port 8000
+2023-06-04T11:15:06.379Z - [INFO   ] - Server 3576 running on port 8000
+2023-06-04T11:15:37.233Z - [INFO   ] - Server 5232 running on port 8000
+2023-06-04T11:15:43.774Z - [INFO   ] - Server 8168 running on port 8000
+2023-06-04T11:15:46.329Z - [INFO   ] - Server 12280 running on port 8000
+2023-06-04T11:15:52.789Z - [INFO   ] - Server 4968 running on port 8000
+2023-06-04T11:16:58.505Z - [INFO   ] - Server 5744 running on port 8000
+2023-06-04T11:17:06.482Z - [INFO   ] - Server 11300 running on port 8000
+2023-06-04T11:17:11.730Z - [INFO   ] - Server 10764 running on port 8000
+2023-06-04T11:17:40.543Z - [INFO   ] - Server 2620 running on port 8000
+2023-06-04T11:17:46.839Z - [INFO   ] - Server 10688 running on port 8000
+2023-06-04T11:17:48.911Z - [INFO   ] - Server 8672 running on port 8000
+2023-06-04T11:17:51.828Z - [INFO   ] - Server 5688 running on port 8000
+2023-06-04T11:17:54.274Z - [INFO   ] - Server 7928 running on port 8000
+2023-06-04T11:18:06.335Z - [INFO   ] - Server 7776 running on port 8000
+2023-06-04T11:18:09.030Z - [INFO   ] - Server 11132 running on port 8000
+2023-06-04T11:18:17.939Z - [INFO   ] - Server 8948 running on port 8000
+2023-06-04T11:18:22.704Z - [INFO   ] - Server 5544 running on port 8000
+2023-06-04T11:18:52.261Z - [ERROR  ] - Server error: notNull Violation: Customer.name cannot be null,
+notNull Violation: Customer.email cannot be null
+2023-06-04T11:19:44.826Z - [INFO   ] - Server 10396 running on port 8000
+2023-06-04T11:19:49.960Z - [INFO   ] - Server 220 running on port 8000
+2023-06-04T11:20:01.126Z - [ERROR  ] - Server error: Field 'name' doesn't have a default value
+2023-06-04T11:20:19.445Z - [INFO   ] - Server 8152 running on port 8000
+2023-06-04T11:20:24.297Z - [INFO   ] - Server 10748 running on port 8000
+2023-06-04T11:20:26.232Z - [ERROR  ] - Server error: Field 'name' doesn't have a default value
+2023-06-04T11:20:40.065Z - [INFO   ] - Server 2120 running on port 8000
+2023-06-04T11:20:42.036Z - [ERROR  ] - Server error: Field 'email' doesn't have a default value
+2023-06-04T11:20:52.616Z - [INFO   ] - Server 7784 running on port 8000
+2023-06-04T11:20:57.970Z - [ERROR  ] - Server error: Validation error
+2023-06-04T11:21:14.510Z - [INFO   ] - Server 7636 running on port 8000
+2023-06-04T11:21:20.017Z - [INFO   ] - Server 12008 running on port 8000
+2023-06-04T11:21:27.510Z - [ERROR  ] - Server error: Validation error
+2023-06-04T11:21:33.765Z - [INFO   ] - Server 11676 running on port 8000
+2023-06-04T11:21:36.776Z - [ERROR  ] - Server error: Validation error
+2023-06-04T11:24:20.483Z - [INFO   ] - Server 3984 running on port 8000
+2023-06-04T11:24:24.731Z - [INFO   ] - Server 11828 running on port 8000
+2023-06-04T11:24:54.483Z - [INFO   ] - Server 2604 running on port 8000
+2023-06-04T11:25:02.811Z - [INFO   ] - Server 4976 running on port 8000
+2023-06-04T11:26:03.686Z - [INFO   ] - Server 7096 running on port 8000
+2023-06-04T11:26:19.390Z - [INFO   ] - Server 10984 running on port 8000
+2023-06-04T11:26:24.511Z - [INFO   ] - Server 11832 running on port 8000
+2023-06-04T11:27:20.322Z - [INFO   ] - Server 9968 running on port 8000
+2023-06-04T11:30:50.883Z - [INFO   ] - Server 5540 running on port 8000
+2023-06-04T11:31:18.823Z - [INFO   ] - Server 7788 running on port 8000
+2023-06-04T11:43:36.582Z - [INFO   ] - Server 9976 running on port 8000
+2023-06-04T11:44:32.188Z - [INFO   ] - Server 11372 running on port 8000
+2023-06-04T11:46:02.191Z - [INFO   ] - Server 9928 running on port 8000
+2023-06-04T11:46:40.124Z - [INFO   ] - Server 8680 running on port 8000
+2023-06-04T11:47:44.619Z - [INFO   ] - Server 1600 running on port 8000
+2023-06-04T11:56:18.407Z - [INFO   ] - Server 2712 running on port 8000
+2023-06-04T11:56:31.004Z - [INFO   ] - Server 3584 running on port 8000
+2023-06-04T15:39:42.196Z - [INFO   ] - Server 12632 running on port 8000
+2023-06-04T15:40:19.460Z - [INFO   ] - Server 6948 running on port 8000
+2023-06-04T15:40:23.095Z - [INFO   ] - Server 12904 running on port 8000
+2023-06-04T15:42:08.097Z - [INFO   ] - Server 10536 running on port 8000
+2023-06-04T15:43:03.452Z - [INFO   ] - Server 10084 running on port 8000
+2023-06-04T15:43:07.669Z - [INFO   ] - Server 4328 running on port 8000
+2023-06-04T15:43:18.557Z - [INFO   ] - Server 9984 running on port 8000
+2023-06-04T15:44:41.298Z - [INFO   ] - Server 13012 running on port 8000
+2023-06-04T15:44:43.661Z - [INFO   ] - Server 1872 running on port 8000
+2023-06-04T15:45:19.378Z - [INFO   ] - Server 11576 running on port 8000
+2023-06-04T15:45:27.546Z - [INFO   ] - Server 6448 running on port 8000
+2023-06-04T15:46:03.397Z - [INFO   ] - Server 3892 running on port 8000
+2023-06-04T15:46:43.454Z - [INFO   ] - Server 6016 running on port 8000
+2023-06-04T15:46:48.231Z - [INFO   ] - Server 12488 running on port 8000
+2023-06-04T15:47:06.173Z - [INFO   ] - Server 10920 running on port 8000
+2023-06-04T15:47:08.855Z - [INFO   ] - Server 6332 running on port 8000
+2023-06-04T15:47:15.241Z - [INFO   ] - Server 10344 running on port 8000
+2023-06-04T15:47:17.604Z - [INFO   ] - Server 3792 running on port 8000
+2023-06-04T15:47:24.584Z - [INFO   ] - Server 5372 running on port 8000
+2023-06-04T15:47:35.811Z - [INFO   ] - Server 13260 running on port 8000
+2023-06-04T15:47:43.664Z - [INFO   ] - Server 7488 running on port 8000
+2023-06-04T15:48:06.953Z - [INFO   ] - Server 12472 running on port 8000
+2023-06-04T15:48:15.677Z - [INFO   ] - Server 13160 running on port 8000
+2023-06-04T15:48:25.734Z - [INFO   ] - Server 8000 running on port 8000
+2023-06-04T15:48:29.257Z - [INFO   ] - Server 11684 running on port 8000
+2023-06-04T15:48:33.141Z - [INFO   ] - Server 5740 running on port 8000
+2023-06-04T15:48:42.235Z - [INFO   ] - Server 7552 running on port 8000
+2023-06-04T15:48:48.927Z - [INFO   ] - Server 12352 running on port 8000
+2023-06-04T15:48:55.429Z - [INFO   ] - Server 9468 running on port 8000
+2023-06-04T15:48:58.429Z - [INFO   ] - Server 12956 running on port 8000
+2023-06-04T15:49:00.943Z - [INFO   ] - Server 12192 running on port 8000
+2023-06-04T15:49:05.214Z - [INFO   ] - Server 8936 running on port 8000
+2023-06-04T15:49:08.477Z - [INFO   ] - Server 7980 running on port 8000
+2023-06-04T15:49:10.509Z - [INFO   ] - Server 2604 running on port 8000
+2023-06-04T15:49:15.082Z - [INFO   ] - Server 1836 running on port 8000
+2023-06-04T15:49:24.676Z - [INFO   ] - Server 5388 running on port 8000
+2023-06-04T15:49:26.569Z - [INFO   ] - Server 10776 running on port 8000
+2023-06-04T15:49:35.762Z - [INFO   ] - Server 12956 running on port 8000
+2023-06-04T15:49:44.327Z - [INFO   ] - Server 11300 running on port 8000
+2023-06-04T15:49:46.968Z - [INFO   ] - Server 6896 running on port 8000
+2023-06-04T15:50:01.907Z - [INFO   ] - Server 9928 running on port 8000
+2023-06-04T15:50:15.933Z - [INFO   ] - Server 6488 running on port 8000
+2023-06-04T15:50:17.578Z - [INFO   ] - Server 12000 running on port 8000
+2023-06-04T15:50:38.838Z - [INFO   ] - Server 13040 running on port 8000
+2023-06-04T15:51:06.318Z - [INFO   ] - Server 12648 running on port 8000
+2023-06-04T15:51:15.635Z - [INFO   ] - Server 8236 running on port 8000
+2023-06-04T15:51:33.624Z - [INFO   ] - Server 5440 running on port 8000
+2023-06-04T15:51:46.993Z - [INFO   ] - Server 4380 running on port 8000
+2023-06-04T15:51:50.281Z - [INFO   ] - Server 7700 running on port 8000
+2023-06-04T15:51:52.292Z - [INFO   ] - Server 1288 running on port 8000
+2023-06-04T15:52:00.882Z - [INFO   ] - Server 9768 running on port 8000
+2023-06-04T15:52:14.612Z - [INFO   ] - Server 13012 running on port 8000
+2023-06-04T15:52:56.105Z - [INFO   ] - Server 3936 running on port 8000
+2023-06-04T15:53:39.059Z - [INFO   ] - Server 2984 running on port 8000
+2023-06-04T15:53:42.024Z - [INFO   ] - Server 3616 running on port 8000
+2023-06-04T15:53:43.903Z - [INFO   ] - Server 7612 running on port 8000
+2023-06-04T15:53:53.662Z - [INFO   ] - Server 10108 running on port 8000
+2023-06-04T15:54:00.265Z - [INFO   ] - Server 11844 running on port 8000
+2023-06-04T15:54:20.369Z - [INFO   ] - Server 3320 running on port 8000
+2023-06-04T15:54:26.104Z - [INFO   ] - Server 5836 running on port 8000
+2023-06-04T15:54:29.107Z - [INFO   ] - Server 8940 running on port 8000
+2023-06-04T15:54:38.051Z - [INFO   ] - Server 4164 running on port 8000
+2023-06-04T15:54:41.737Z - [INFO   ] - Server 6132 running on port 8000
+2023-06-04T15:54:46.740Z - [INFO   ] - Server 10748 running on port 8000
+2023-06-04T15:55:02.147Z - [INFO   ] - Server 3484 running on port 8000
+2023-06-04T15:55:11.367Z - [INFO   ] - Server 7116 running on port 8000
+2023-06-04T15:55:33.976Z - [INFO   ] - Server 12660 running on port 8000
+2023-06-04T15:55:37.410Z - [INFO   ] - Server 6056 running on port 8000
+2023-06-04T15:56:17.421Z - [INFO   ] - Server 13188 running on port 8000
+2023-06-04T15:56:20.855Z - [INFO   ] - Server 5544 running on port 8000
+2023-06-04T15:57:01.703Z - [ERROR  ] - Server error: data and salt arguments required
+2023-06-04T15:57:44.747Z - [ERROR  ] - Server error: Unknown column 'pin' in 'field list'
+2023-06-04T15:58:19.999Z - [INFO   ] - Server 12768 running on port 8000
+2023-06-04T15:58:28.014Z - [ERROR  ] - Server error: Unknown column 'created_at' in 'field list'
+2023-06-04T16:10:15.704Z - [INFO   ] - Server 11220 running on port 8000
+2023-06-04T16:10:26.541Z - [INFO   ] - Server 5720 running on port 8000
+2023-06-04T16:11:32.097Z - [INFO   ] - Server 9452 running on port 8000
+2023-06-04T16:12:03.738Z - [INFO   ] - Server 8428 running on port 8000
+2023-06-04T16:13:41.390Z - [INFO   ] - Server 5476 running on port 8000
+2023-06-04T16:14:37.902Z - [INFO   ] - Server 4348 running on port 8000
+2023-06-04T16:15:16.263Z - [INFO   ] - Server 10132 running on port 8000
+2023-06-04T16:15:24.694Z - [ERROR  ] - Server error: Data too long for column 'pin' at row 1
+2023-06-04T16:15:53.546Z - [INFO   ] - Server 2984 running on port 8000
+2023-06-04T16:16:23.545Z - [INFO   ] - Server 2072 running on port 8000
+2023-06-04T16:16:35.114Z - [ERROR  ] - Server error: Incorrect integer value: '$2b$10$0Eo8lYtVwpPtRx6mubrcSuxD7/cv9hrGos/6./rB76STdEusEsbo6' for column 'pin' at row 1
+2023-06-04T16:17:01.043Z - [INFO   ] - Server 10712 running on port 8000
+2023-06-04T16:17:16.744Z - [INFO   ] - Server 11664 running on port 8000
+2023-06-04T17:40:47.226Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`ShopId`) REFERENCES `shops` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-06-04T17:46:54.074Z - [INFO   ] - Server 3360 running on port 8000
+2023-06-04T17:47:10.219Z - [ERROR  ] - Server error: WHERE parameter "title" has invalid "undefined" value
+2023-06-04T18:09:09.474Z - [INFO   ] - Server 13128 running on port 8000
+2023-06-04T18:09:16.659Z - [INFO   ] - Server 11628 running on port 8000
+2023-06-04T18:09:38.796Z - [INFO   ] - Server 13940 running on port 8000
+2023-06-04T18:09:44.309Z - [INFO   ] - Server 11704 running on port 8000
+2023-06-04T18:09:52.370Z - [INFO   ] - Server 8972 running on port 8000
+2023-06-04T18:09:55.402Z - [INFO   ] - Server 12924 running on port 8000
+2023-06-04T18:10:15.722Z - [INFO   ] - Server 5188 running on port 8000
+2023-06-04T18:10:21.350Z - [INFO   ] - Server 5544 running on port 8000
+2023-06-04T18:10:28.947Z - [INFO   ] - Server 10144 running on port 8000
+2023-06-04T18:10:32.347Z - [ERROR  ] - Item not found.
+2023-06-04T18:13:06.055Z - [INFO   ] - Server 1768 running on port 8000
+2023-06-04T18:15:45.344Z - [INFO   ] - Server 1140 running on port 8000
+2023-06-04T18:15:54.400Z - [INFO   ] - Server 6592 running on port 8000
+2023-06-04T18:16:01.325Z - [INFO   ] - Server 4904 running on port 8000
+2023-06-04T18:16:03.446Z - [INFO   ] - Server 12464 running on port 8000
+2023-06-04T18:16:19.394Z - [INFO   ] - Server 7492 running on port 8000
+2023-06-04T18:16:50.827Z - [INFO   ] - Server 14012 running on port 8000
+2023-06-04T18:16:55.635Z - [INFO   ] - Server 12000 running on port 8000
+2023-06-04T18:17:01.172Z - [INFO   ] - Server 11084 running on port 8000
+2023-06-04T18:17:09.167Z - [INFO   ] - Server 10568 running on port 8000
+2023-06-04T18:17:27.362Z - [INFO   ] - Server 8984 running on port 8000
+2023-06-04T18:17:57.351Z - [INFO   ] - Server 14300 running on port 8000
+2023-06-04T18:18:03.404Z - [INFO   ] - Server 10336 running on port 8000
+2023-06-04T18:18:21.797Z - [INFO   ] - Server 10484 running on port 8000
+2023-06-04T18:18:25.812Z - [INFO   ] - Server 8624 running on port 8000
+2023-06-04T18:18:31.708Z - [INFO   ] - Server 11308 running on port 8000
+2023-06-04T18:18:37.996Z - [INFO   ] - Server 11940 running on port 8000
+2023-06-04T18:18:43.983Z - [INFO   ] - Server 3624 running on port 8000
+2023-06-04T18:22:47.869Z - [INFO   ] - Server 13676 running on port 8000
+2023-06-04T18:22:52.259Z - [INFO   ] - Server 5256 running on port 8000
+2023-06-04T18:22:59.924Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-06-04T18:27:14.064Z - [INFO   ] - Server 11648 running on port 8000
+2023-06-04T18:27:15.862Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-06-04T18:28:43.704Z - [INFO   ] - Server 13436 running on port 8000
+2023-06-04T18:28:48.512Z - [ERROR  ] - Server error: Association with alias "productCategory" does not exist on Product
+2023-06-04T18:29:19.872Z - [INFO   ] - Server 8396 running on port 8000
+2023-06-04T18:29:21.521Z - [ERROR  ] - Server error: Unknown column 'Product.categoryId' in 'where clause'
+2023-06-04T18:29:33.523Z - [INFO   ] - Server 7040 running on port 8000
+2023-06-04T18:30:21.268Z - [INFO   ] - Server 2984 running on port 8000
+2023-06-04T18:30:33.121Z - [INFO   ] - Server 6164 running on port 8000
+2023-06-04T18:30:35.005Z - [ERROR  ] - Server error: Unknown column 'Product.category' in 'where clause'
+2023-06-04T18:35:01.959Z - [INFO   ] - Server 7872 running on port 8000
+2023-06-04T18:35:08.114Z - [INFO   ] - Server 512 running on port 8000
+2023-06-04T18:35:17.231Z - [INFO   ] - Server 13552 running on port 8000
+2023-06-04T18:35:18.636Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-06-04T18:35:36.299Z - [INFO   ] - Server 10532 running on port 8000
+2023-06-04T18:35:42.487Z - [INFO   ] - Server 10632 running on port 8000
+2023-06-04T18:35:44.267Z - [ERROR  ] - Server error: Not unique table/alias: 'ProductCategory'
+2023-06-04T18:36:00.670Z - [INFO   ] - Server 10224 running on port 8000
+2023-06-04T18:36:26.540Z - [INFO   ] - Server 9528 running on port 8000
+2023-06-04T18:36:30.035Z - [INFO   ] - Server 8688 running on port 8000
+2023-06-04T18:36:31.541Z - [ERROR  ] - Server error: include.model.getTableName is not a function
+2023-06-04T18:36:40.257Z - [INFO   ] - Server 7348 running on port 8000
+2023-06-04T18:36:42.425Z - [ERROR  ] - Server error: ProductCategory is not defined
+2023-06-04T18:38:39.661Z - [INFO   ] - Server 14128 running on port 8000
+2023-06-04T18:38:49.491Z - [INFO   ] - Server 10880 running on port 8000
+2023-06-04T18:38:53.610Z - [ERROR  ] - Server error: sequelize is not defined
+2023-06-04T18:39:06.829Z - [INFO   ] - Server 8032 running on port 8000
+2023-06-04T18:39:08.550Z - [ERROR  ] - Server error: Table 'nonveg basket.productcategories' doesn't exist
+2023-06-04T18:39:24.576Z - [INFO   ] - Server 14052 running on port 8000
+2023-06-04T18:40:19.443Z - [INFO   ] - Server 12716 running on port 8000
+2023-06-04T18:40:21.800Z - [ERROR  ] - Server error: Unknown column 'Product.productCategoryId' in 'where clause'
+2023-06-04T18:40:42.363Z - [INFO   ] - Server 7000 running on port 8000
+2023-06-04T18:40:46.203Z - [INFO   ] - Server 14216 running on port 8000
+2023-06-04T18:40:50.320Z - [INFO   ] - Server 12860 running on port 8000
+2023-06-04T18:41:06.234Z - [INFO   ] - Server 4016 running on port 8000
+2023-06-04T18:41:09.325Z - [ERROR  ] - Server error: Subquery returns more than 1 row
+2023-06-04T18:42:37.567Z - [INFO   ] - Server 13648 running on port 8000
+2023-06-04T18:42:39.831Z - [ERROR  ] - Server error: sequelize is not defined
+2023-06-04T18:42:50.666Z - [INFO   ] - Server 11684 running on port 8000
+2023-06-04T18:42:56.061Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'in')
+2023-06-04T18:46:40.022Z - [INFO   ] - Server 11220 running on port 8000
+2023-06-04T18:46:43.947Z - [INFO   ] - Server 10504 running on port 8000
+2023-06-04T18:46:55.134Z - [INFO   ] - Server 884 running on port 8000
+2023-06-04T18:47:05.658Z - [INFO   ] - Server 2392 running on port 8000
+2023-06-04T18:47:17.970Z - [INFO   ] - Server 12196 running on port 8000
+2023-06-04T18:47:32.636Z - [INFO   ] - Server 8916 running on port 8000
+2023-06-04T18:47:41.911Z - [INFO   ] - Server 8896 running on port 8000
+2023-06-04T18:47:50.859Z - [INFO   ] - Server 3892 running on port 8000
+2023-06-04T18:48:26.437Z - [INFO   ] - Server 13708 running on port 8000
+2023-06-04T18:48:41.497Z - [INFO   ] - Server 13868 running on port 8000
+2023-06-04T18:48:46.098Z - [INFO   ] - Server 6896 running on port 8000
+2023-06-04T18:48:53.737Z - [INFO   ] - Server 7980 running on port 8000
+2023-06-04T18:49:02.426Z - [INFO   ] - Server 10000 running on port 8000
+2023-06-04T18:49:19.142Z - [INFO   ] - Server 10880 running on port 8000
+2023-06-04T18:49:23.561Z - [INFO   ] - Server 8384 running on port 8000
+2023-06-04T18:49:36.526Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'ProductCategory')
+2023-06-04T18:50:07.680Z - [INFO   ] - Server 13736 running on port 8000
+2023-06-04T18:50:09.451Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'ProductCategory')
+2023-06-04T18:50:39.619Z - [INFO   ] - Server 2328 running on port 8000
+2023-06-04T18:51:05.609Z - [INFO   ] - Server 11260 running on port 8000
+2023-06-04T18:51:09.289Z - [INFO   ] - Server 4280 running on port 8000
+2023-06-04T18:52:30.791Z - [INFO   ] - Server 8348 running on port 8000
+2023-06-04T18:52:42.851Z - [INFO   ] - Server 8596 running on port 8000
+2023-06-04T18:52:53.320Z - [ERROR  ] - Server error: Cannot read properties of null (reading 'dataValues')
+2023-06-04T18:53:18.522Z - [INFO   ] - Server 12188 running on port 8000
+2023-06-04T18:53:20.423Z - [ERROR  ] - Server error: Cannot read properties of null (reading 'dataValues')
+2023-06-04T18:53:32.515Z - [INFO   ] - Server 5680 running on port 8000
+2023-06-04T18:53:43.235Z - [ERROR  ] - Server error: Cannot read properties of null (reading 'dataValues')
+2023-06-04T18:54:00.331Z - [INFO   ] - Server 12996 running on port 8000
+2023-06-04T18:54:03.284Z - [INFO   ] - Server 14308 running on port 8000
+2023-06-04T18:54:10.188Z - [INFO   ] - Server 3584 running on port 8000
+2023-06-04T18:54:16.744Z - [ERROR  ] - Server error: Cannot read properties of null (reading 'dataValues')
+2023-06-04T18:54:54.784Z - [INFO   ] - Server 1872 running on port 8000
+2023-06-04T18:55:10.807Z - [INFO   ] - Server 14012 running on port 8000
+2023-06-04T18:55:30.282Z - [INFO   ] - Server 10724 running on port 8000
+2023-06-04T18:55:38.954Z - [INFO   ] - Server 3740 running on port 8000
+2023-06-04T18:55:40.831Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:56:13.865Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:56:25.446Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:56:49.755Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:57:07.251Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:57:16.081Z - [ERROR  ] - Incorrect category.
+2023-06-04T18:57:29.573Z - [INFO   ] - Server 12356 running on port 8000
+2023-06-04T18:57:32.149Z - [INFO   ] - Server 5544 running on port 8000
+2023-06-04T18:57:53.175Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'ProductCategory')
+2023-06-04T18:58:51.754Z - [INFO   ] - Server 12748 running on port 8000
+2023-06-04T18:58:58.231Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'ProductCategory')
+2023-06-04T18:59:38.996Z - [INFO   ] - Server 6556 running on port 8000
+2023-06-04T18:59:43.504Z - [ERROR  ] - Server error: item.ProductImages is not iterable
+2023-06-04T18:59:55.326Z - [INFO   ] - Server 11596 running on port 8000
+2023-06-04T18:59:59.510Z - [INFO   ] - Server 2240 running on port 8000
+2023-06-04T19:00:03.538Z - [INFO   ] - Server 12044 running on port 8000
+2023-06-04T19:02:42.856Z - [INFO   ] - Server 14040 running on port 8000
+2023-06-04T19:02:48.527Z - [INFO   ] - Server 13228 running on port 8000
+2023-06-04T19:03:10.671Z - [INFO   ] - Server 7080 running on port 8000
+2023-06-04T19:09:45.960Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:09:55.737Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:10:27.776Z - [INFO   ] - Server 8728 running on port 8000
+2023-06-04T19:11:14.692Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:11:14.759Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:11:24.322Z - [INFO   ] - Server 2392 running on port 8000
+2023-06-04T19:11:38.463Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:13:31.991Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:14:04.963Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:14:18.263Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:15:45.340Z - [INFO   ] - Server 9896 running on port 8000
+2023-06-04T19:26:56.092Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:27:14.795Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:33:41.165Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:34:16.247Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:34:32.807Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:35:00.162Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:35:58.402Z - [INFO   ] - Server 3632 running on port 8000
+2023-06-04T19:36:03.659Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:36:40.418Z - [INFO   ] - Server 7488 running on port 8000
+2023-06-04T19:36:44.392Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:37:03.911Z - [INFO   ] - Server 13224 running on port 8000
+2023-06-04T19:37:06.558Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:37:21.983Z - [INFO   ] - Server 12716 running on port 8000
+2023-06-04T19:37:26.536Z - [INFO   ] - Server 10080 running on port 8000
+2023-06-04T19:37:29.855Z - [ERROR  ] - Incorrect category.
+2023-06-04T19:37:45.141Z - [INFO   ] - Server 5824 running on port 8000
+2023-06-04T19:38:18.575Z - [INFO   ] - Server 2496 running on port 8000
+2023-06-04T19:38:31.312Z - [INFO   ] - Server 14236 running on port 8000
+2023-06-04T19:38:55.239Z - [INFO   ] - Server 8064 running on port 8000
+2023-06-04T19:38:59.147Z - [INFO   ] - Server 7360 running on port 8000
+2023-06-04T19:39:02.685Z - [INFO   ] - Server 12920 running on port 8000
+2023-06-04T19:39:09.480Z - [INFO   ] - Server 12984 running on port 8000
+2023-06-04T19:39:15.675Z - [INFO   ] - Server 6896 running on port 8000
+2023-06-04T19:39:19.088Z - [INFO   ] - Server 13988 running on port 8000
+2023-06-04T19:39:29.236Z - [INFO   ] - Server 6268 running on port 8000
+2023-06-04T19:39:34.058Z - [INFO   ] - Server 3912 running on port 8000
+2023-06-04T19:39:38.125Z - [INFO   ] - Server 7884 running on port 8000
+2023-06-04T19:40:13.229Z - [INFO   ] - Server 14148 running on port 8000
+2023-06-04T19:40:19.195Z - [INFO   ] - Server 13472 running on port 8000

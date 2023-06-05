@@ -33,8 +33,10 @@ const getProducts = async (req, res) => {
 };
 
 const getActiveProducts = async (req, res) => {
+    const { category } = req.query;
+    // console.log(">>>", category);
     try {
-        const result = await ProductService.findAllActive();
+        const result = await ProductService.findAllActive(category);
 
         return Response.success(res, `${result.length} Item(s) found.`, result);
     } catch (err) {
