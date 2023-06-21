@@ -32,7 +32,22 @@ const customerLogin = async (req, res) => {
         const result = await CustomerService.login(mobile, pin);
         return Response.success(res, `Customer logged in successfully.`, result);
     } catch (err) {
+        if (err instanceof ApiError)
+            return Response.error(res, err);
         
+        return Response.error(res, ApiError.internal(err));
+    }
+};
+
+const customerAuthentication = async (req, res) => {
+    try {
+        const result = req.customer;
+        return Response.success(res, `Customer found & logged in successfully.`, result);
+    } catch (err) {
+        if (err instanceof ApiError)
+            return Response.error(res, err);
+        
+        return Response.error(res, ApiError.internal(err));        
     }
 }
 
@@ -40,4 +55,5 @@ module.exports = {
     getCustomers,
     newCustomer,
     customerLogin,
+    customerAuthentication,
 }

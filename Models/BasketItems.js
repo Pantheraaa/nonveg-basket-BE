@@ -3,9 +3,14 @@ const { Model } = require("sequelize");
 module.exports = function (sequelize, DataTypes) {
     class BasketItems extends Model {
         static associate({ Basket, Product }) {
-            this.belongsTo(Basket);
+            this.belongsTo(Basket, { foreignKey: 'basketId' });
+            this.belongsTo(Product, { foreignKey: 'productId' });
             // this.hasMany(Product);
         };
+
+        static increseQuantity(itemId) {
+            return this.increment('quantity', { by: 1, where: { id: itemId } });
+        }
     };
 
     BasketItems.init({
@@ -15,9 +20,15 @@ module.exports = function (sequelize, DataTypes) {
             allowNull: false,
             primaryKey: true,
         },
-        // productId: {
-        //     type: DataTypes.UUID,
-        //     allowNull: false
+        quantity: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            defaultValue: 1,
+        },
+        // price: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     defaultValue: 0,
         // }
     }, {
         sequelize,
@@ -27,7 +38,7 @@ module.exports = function (sequelize, DataTypes) {
         underscored: true,
         defaultScope: {
             // include: ["Shop"],
-            attributes: { exclude: ["createdAt", "updatedAt", "deletedAt"] }
+            attributes: { exclude: ["createdAt", "updatedAt", "deletedAt", "productId", "ProductId"] }
         }
     }
     );

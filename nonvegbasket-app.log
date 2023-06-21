@@ -2146,3 +2146,548 @@ notNull Violation: Customer.email cannot be null
 2023-06-04T19:39:38.125Z - [INFO   ] - Server 7884 running on port 8000
 2023-06-04T19:40:13.229Z - [INFO   ] - Server 14148 running on port 8000
 2023-06-04T19:40:19.195Z - [INFO   ] - Server 13472 running on port 8000
+2023-06-07T11:13:56.565Z - [INFO   ] - Server 14476 running on port 8000
+2023-06-07T11:14:11.420Z - [INFO   ] - Server 15916 running on port 8000
+2023-06-07T11:15:15.209Z - [INFO   ] - Server 9364 running on port 8000
+2023-06-07T11:15:28.553Z - [INFO   ] - Server 7592 running on port 8000
+2023-06-07T11:15:31.104Z - [INFO   ] - Server 12196 running on port 8000
+2023-06-07T11:15:41.572Z - [INFO   ] - Server 17344 running on port 8000
+2023-06-07T11:15:49.325Z - [INFO   ] - Server 15456 running on port 8000
+2023-06-07T11:16:28.265Z - [INFO   ] - Server 8700 running on port 8000
+2023-06-07T11:16:33.553Z - [INFO   ] - Server 13088 running on port 8000
+2023-06-07T11:16:37.729Z - [INFO   ] - Server 17348 running on port 8000
+2023-06-07T11:16:48.895Z - [INFO   ] - Server 15060 running on port 8000
+2023-06-07T11:16:51.325Z - [INFO   ] - Server 8488 running on port 8000
+2023-06-07T11:17:32.510Z - [INFO   ] - Server 14072 running on port 8000
+2023-06-07T11:17:48.795Z - [INFO   ] - Server 11244 running on port 8000
+2023-06-07T11:18:43.013Z - [INFO   ] - Server 14428 running on port 8000
+2023-06-07T11:18:51.643Z - [INFO   ] - Server 16088 running on port 8000
+2023-06-07T11:18:55.966Z - [INFO   ] - Server 3260 running on port 8000
+2023-06-07T11:22:51.694Z - [ERROR  ] - Server error: db is not defined
+2023-06-07T11:23:47.818Z - [INFO   ] - Server 9660 running on port 8000
+2023-06-07T11:24:06.409Z - [ERROR  ] - Server error: db is not defined
+2023-06-07T11:24:24.164Z - [INFO   ] - Server 14780 running on port 8000
+2023-06-07T11:56:26.403Z - [INFO   ] - Server 15856 running on port 8000
+2023-06-07T11:57:43.926Z - [INFO   ] - Server 11580 running on port 8000
+2023-06-07T11:57:51.569Z - [INFO   ] - Server 14268 running on port 8000
+2023-06-07T11:58:55.977Z - [INFO   ] - Server 7516 running on port 8000
+2023-06-07T11:58:59.411Z - [INFO   ] - Server 12540 running on port 8000
+2023-06-07T12:31:16.813Z - [INFO   ] - Server 17736 running on port 8000
+2023-06-07T12:33:27.748Z - [INFO   ] - Server 14976 running on port 8000
+2023-06-07T12:33:33.119Z - [INFO   ] - Server 11888 running on port 8000
+2023-06-07T12:33:39.356Z - [INFO   ] - Server 14028 running on port 8000
+2023-06-07T12:33:43.183Z - [INFO   ] - Server 18284 running on port 8000
+2023-06-07T12:33:55.848Z - [INFO   ] - Server 17680 running on port 8000
+2023-06-07T12:34:04.264Z - [INFO   ] - Server 17980 running on port 8000
+2023-06-07T12:35:26.116Z - [INFO   ] - Server 18184 running on port 8000
+2023-06-07T12:37:14.636Z - [INFO   ] - Server 3956 running on port 8000
+2023-06-07T12:37:19.939Z - [INFO   ] - Server 11888 running on port 8000
+2023-06-07T12:37:27.401Z - [INFO   ] - Server 1512 running on port 8000
+2023-06-07T12:37:31.926Z - [INFO   ] - Server 13376 running on port 8000
+2023-06-07T12:40:25.098Z - [INFO   ] - Server 9272 running on port 8000
+2023-06-07T12:40:29.222Z - [ERROR  ] - Server error: customerId is not defined
+2023-06-07T12:41:59.022Z - [INFO   ] - Server 18028 running on port 8000
+2023-06-07T12:42:11.172Z - [INFO   ] - Server 6484 running on port 8000
+2023-06-07T12:42:15.543Z - [INFO   ] - Server 17776 running on port 8000
+2023-06-07T12:42:17.663Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'id')
+2023-06-07T12:42:30.358Z - [INFO   ] - Server 9616 running on port 8000
+2023-06-07T12:42:43.727Z - [INFO   ] - Server 5376 running on port 8000
+2023-06-07T12:42:45.071Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'id')
+2023-06-07T12:42:54.878Z - [INFO   ] - Server 17716 running on port 8000
+2023-06-07T12:42:57.161Z - [INFO   ] - Server 6000 running on port 8000
+2023-06-07T12:42:59.658Z - [INFO   ] - Server 17628 running on port 8000
+2023-06-07T12:43:18.887Z - [INFO   ] - Server 10820 running on port 8000
+2023-06-07T12:44:37.830Z - [INFO   ] - Server 8556 running on port 8000
+2023-06-07T12:44:43.713Z - [INFO   ] - Server 17004 running on port 8000
+2023-06-07T12:44:45.803Z - [INFO   ] - Server 11860 running on port 8000
+2023-06-07T12:45:04.645Z - [INFO   ] - Server 11472 running on port 8000
+2023-06-07T12:45:07.058Z - [ERROR  ] - Server error: items.setProduct is not a function
+2023-06-07T12:48:14.726Z - [INFO   ] - Server 8272 running on port 8000
+2023-06-07T12:48:41.463Z - [INFO   ] - Server 16380 running on port 8000
+2023-06-07T12:48:43.453Z - [INFO   ] - Server 6536 running on port 8000
+2023-06-07T12:48:51.938Z - [ERROR  ] - Server error: items.setProduct is not a function
+2023-06-07T12:50:36.034Z - [INFO   ] - Server 17360 running on port 8000
+2023-06-07T12:50:40.862Z - [INFO   ] - Server 5748 running on port 8000
+2023-06-07T12:50:43.931Z - [INFO   ] - Server 10680 running on port 8000
+2023-06-07T12:50:47.291Z - [INFO   ] - Server 10560 running on port 8000
+2023-06-07T12:50:52.530Z - [INFO   ] - Server 16320 running on port 8000
+2023-06-07T12:50:56.347Z - [INFO   ] - Server 6364 running on port 8000
+2023-06-07T12:50:58.884Z - [ERROR  ] - Server error: newItem.setBasket is not a function
+2023-06-07T12:53:57.361Z - [INFO   ] - Server 6484 running on port 8000
+2023-06-07T12:54:03.835Z - [INFO   ] - Server 5336 running on port 8000
+2023-06-07T12:54:06.145Z - [INFO   ] - Server 2876 running on port 8000
+2023-06-07T12:54:11.738Z - [INFO   ] - Server 14804 running on port 8000
+2023-06-07T12:54:30.790Z - [INFO   ] - Server 12132 running on port 8000
+2023-06-07T12:54:35.545Z - [INFO   ] - Server 7596 running on port 8000
+2023-06-07T12:55:28.030Z - [ERROR  ] - Server error: newItem.setBasket is not a function
+2023-06-07T12:56:15.411Z - [INFO   ] - Server 16208 running on port 8000
+2023-06-07T12:56:17.283Z - [ERROR  ] - Server error: newItem.setBasket is not a function
+2023-06-07T12:56:34.253Z - [INFO   ] - Server 17632 running on port 8000
+2023-06-07T12:57:53.646Z - [INFO   ] - Server 4632 running on port 8000
+2023-06-07T12:58:19.282Z - [INFO   ] - Server 17436 running on port 8000
+2023-06-07T12:58:30.649Z - [INFO   ] - Server 12272 running on port 8000
+2023-06-07T12:58:39.198Z - [INFO   ] - Server 17872 running on port 8000
+2023-06-07T12:59:56.837Z - [ERROR  ] - Server error: Unknown column 'Basket.customerId' in 'where clause'
+2023-06-07T13:00:50.579Z - [INFO   ] - Server 13268 running on port 8000
+2023-06-07T13:01:01.399Z - [INFO   ] - Server 13324 running on port 8000
+2023-06-07T13:01:07.610Z - [INFO   ] - Server 9796 running on port 8000
+2023-06-07T13:01:10.950Z - [INFO   ] - Server 17440 running on port 8000
+2023-06-07T13:01:14.554Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'length')
+2023-06-07T13:01:30.931Z - [INFO   ] - Server 10356 running on port 8000
+2023-06-07T13:01:33.015Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'length')
+2023-06-07T13:01:40.822Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'length')
+2023-06-07T13:02:46.880Z - [INFO   ] - Server 17532 running on port 8000
+2023-06-07T13:02:50.049Z - [INFO   ] - Server 14008 running on port 8000
+2023-06-07T13:02:51.599Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'length')
+2023-06-07T13:02:59.659Z - [INFO   ] - Server 17688 running on port 8000
+2023-06-07T13:03:02.939Z - [INFO   ] - Server 8700 running on port 8000
+2023-06-07T13:03:08.057Z - [INFO   ] - Server 9160 running on port 8000
+2023-06-07T13:03:45.434Z - [INFO   ] - Server 17556 running on port 8000
+2023-06-07T13:03:47.008Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'length')
+2023-06-07T13:04:12.791Z - [INFO   ] - Server 15504 running on port 8000
+2023-06-07T13:04:45.362Z - [INFO   ] - Server 4696 running on port 8000
+2023-06-07T13:05:14.250Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`basketitems`, CONSTRAINT `basketitems_ibfk_10` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-06-07T13:06:59.068Z - [INFO   ] - Server 17796 running on port 8000
+2023-06-07T13:10:22.932Z - [INFO   ] - Server 8896 running on port 8000
+2023-06-07T13:10:35.401Z - [INFO   ] - Server 3612 running on port 8000
+2023-06-07T13:10:47.216Z - [INFO   ] - Server 13368 running on port 8000
+2023-06-07T13:11:37.217Z - [ERROR  ] - Server error: Cannot add or update a child row: a foreign key constraint fails (`nonveg basket`.`basketitems`, CONSTRAINT `basketitems_ibfk_10` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+2023-06-07T13:17:07.566Z - [INFO   ] - Server 10456 running on port 8000
+2023-06-07T13:17:22.197Z - [INFO   ] - Server 6508 running on port 8000
+2023-06-07T13:17:27.504Z - [INFO   ] - Server 7656 running on port 8000
+2023-06-07T13:20:01.754Z - [INFO   ] - Server 9628 running on port 8000
+2023-06-07T13:20:08.547Z - [INFO   ] - Server 17828 running on port 8000
+2023-06-07T13:20:55.038Z - [INFO   ] - Server 14372 running on port 8000
+2023-06-07T13:21:09.751Z - [INFO   ] - Server 9572 running on port 8000
+2023-06-07T13:21:15.835Z - [INFO   ] - Server 17456 running on port 8000
+2023-06-07T13:22:09.708Z - [INFO   ] - Server 9396 running on port 8000
+2023-06-07T13:22:15.742Z - [INFO   ] - Server 4480 running on port 8000
+2023-06-07T13:22:18.307Z - [INFO   ] - Server 15120 running on port 8000
+2023-06-07T13:23:47.006Z - [INFO   ] - Server 6932 running on port 8000
+2023-06-07T13:23:50.385Z - [INFO   ] - Server 18220 running on port 8000
+2023-06-07T13:23:54.172Z - [INFO   ] - Server 18020 running on port 8000
+2023-06-07T13:23:59.445Z - [INFO   ] - Server 2252 running on port 8000
+2023-06-07T13:24:04.622Z - [INFO   ] - Server 1988 running on port 8000
+2023-06-07T13:24:12.216Z - [INFO   ] - Server 17000 running on port 8000
+2023-06-07T13:24:16.488Z - [INFO   ] - Server 14300 running on port 8000
+2023-06-07T13:24:21.436Z - [INFO   ] - Server 16360 running on port 8000
+2023-06-07T13:24:23.867Z - [INFO   ] - Server 10232 running on port 8000
+2023-06-07T13:24:35.549Z - [INFO   ] - Server 6772 running on port 8000
+2023-06-07T13:25:04.652Z - [INFO   ] - Server 10500 running on port 8000
+2023-06-07T13:25:11.624Z - [INFO   ] - Server 15972 running on port 8000
+2023-06-07T13:25:16.409Z - [INFO   ] - Server 17824 running on port 8000
+2023-06-07T13:25:22.622Z - [INFO   ] - Server 18192 running on port 8000
+2023-06-07T13:25:25.638Z - [INFO   ] - Server 7632 running on port 8000
+2023-06-07T13:25:29.917Z - [INFO   ] - Server 14932 running on port 8000
+2023-06-07T13:25:35.860Z - [INFO   ] - Server 17620 running on port 8000
+2023-06-07T13:25:50.031Z - [INFO   ] - Server 5092 running on port 8000
+2023-06-07T13:25:53.021Z - [INFO   ] - Server 7448 running on port 8000
+2023-06-07T13:26:18.690Z - [INFO   ] - Server 14364 running on port 8000
+2023-06-07T13:26:25.601Z - [INFO   ] - Server 15636 running on port 8000
+2023-06-07T13:26:30.075Z - [INFO   ] - Server 6996 running on port 8000
+2023-06-07T13:26:35.547Z - [INFO   ] - Server 6204 running on port 8000
+2023-06-07T13:28:28.647Z - [INFO   ] - Server 10384 running on port 8000
+2023-06-07T13:28:41.254Z - [INFO   ] - Server 9084 running on port 8000
+2023-06-07T13:28:43.562Z - [INFO   ] - Server 17016 running on port 8000
+2023-06-07T13:29:49.511Z - [INFO   ] - Server 9356 running on port 8000
+2023-06-07T13:29:53.241Z - [INFO   ] - Server 1960 running on port 8000
+2023-06-07T13:30:33.814Z - [INFO   ] - Server 3752 running on port 8000
+2023-06-07T13:30:37.533Z - [INFO   ] - Server 16988 running on port 8000
+2023-06-07T13:30:40.450Z - [INFO   ] - Server 17636 running on port 8000
+2023-06-07T13:30:46.965Z - [INFO   ] - Server 17504 running on port 8000
+2023-06-07T13:30:55.246Z - [INFO   ] - Server 17416 running on port 8000
+2023-06-07T13:30:59.672Z - [INFO   ] - Server 18136 running on port 8000
+2023-06-07T13:32:41.251Z - [INFO   ] - Server 15376 running on port 8000
+2023-06-07T13:32:43.866Z - [INFO   ] - Server 17544 running on port 8000
+2023-06-07T13:33:00.519Z - [INFO   ] - Server 7340 running on port 8000
+2023-06-07T13:33:09.723Z - [INFO   ] - Server 5740 running on port 8000
+2023-06-07T13:33:14.643Z - [INFO   ] - Server 4372 running on port 8000
+2023-06-08T10:06:58.106Z - [INFO   ] - Server 8048 running on port 8000
+2023-06-08T10:32:30.994Z - [INFO   ] - Server 11848 running on port 8000
+2023-06-12T15:52:00.631Z - [INFO   ] - Server 16360 running on port 8000
+2023-06-13T15:28:20.001Z - [INFO   ] - Server 10028 running on port 8000
+2023-06-13T16:32:40.220Z - [INFO   ] - Server 9232 running on port 8000
+2023-06-18T12:37:24.294Z - [INFO   ] - Server 8152 running on port 8000
+2023-06-18T12:38:10.003Z - [INFO   ] - Server 11616 running on port 8000
+2023-06-18T13:39:51.179Z - [INFO   ] - Server 9584 running on port 8000
+2023-06-18T13:43:05.980Z - [INFO   ] - Server 5236 running on port 8000
+2023-06-18T13:43:37.216Z - [INFO   ] - Server 10992 running on port 8000
+2023-06-18T13:44:26.670Z - [INFO   ] - Server 13300 running on port 8000
+2023-06-18T13:44:48.535Z - [INFO   ] - Server 8504 running on port 8000
+2023-06-18T13:44:51.348Z - [INFO   ] - Server 972 running on port 8000
+2023-06-18T13:50:55.243Z - [INFO   ] - Server 5260 running on port 8000
+2023-06-18T13:51:43.102Z - [INFO   ] - Server 7668 running on port 8000
+2023-06-18T13:51:52.387Z - [INFO   ] - Server 8704 running on port 8000
+2023-06-18T13:52:53.529Z - [INFO   ] - Server 10800 running on port 8000
+2023-06-18T13:52:58.310Z - [INFO   ] - Server 1452 running on port 8000
+2023-06-18T13:54:21.761Z - [INFO   ] - Server 7772 running on port 8000
+2023-06-18T13:54:27.265Z - [INFO   ] - Server 12268 running on port 8000
+2023-06-18T13:54:33.601Z - [INFO   ] - Server 9208 running on port 8000
+2023-06-18T13:55:24.779Z - [INFO   ] - Server 7676 running on port 8000
+2023-06-18T13:57:07.510Z - [INFO   ] - Server 11932 running on port 8000
+2023-06-18T13:59:19.002Z - [INFO   ] - Server 5604 running on port 8000
+2023-06-18T14:00:14.754Z - [INFO   ] - Server 3032 running on port 8000
+2023-06-18T14:00:38.377Z - [INFO   ] - Server 5244 running on port 8000
+2023-06-18T14:01:28.164Z - [ERROR  ] - Mobile is required.
+2023-06-18T14:03:27.858Z - [INFO   ] - Server 1368 running on port 8000
+2023-06-18T14:03:31.408Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:03:35.742Z - [ERROR  ] - Customer does not exists.
+2023-06-18T14:03:39.742Z - [ERROR  ] - Server error: data and hash must be strings
+2023-06-18T14:03:53.262Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:03:58.614Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:06:39.812Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:10:28.783Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:12:45.790Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:14:17.690Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:16:47.173Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:16:56.957Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:20:20.322Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:20:25.623Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:20:53.438Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:21:01.466Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:21:04.366Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:21:06.273Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:21:24.333Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:23:01.268Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:23:11.547Z - [ERROR  ] - Invalid credential.
+2023-06-18T14:23:14.642Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:33:21.896Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T14:35:28.930Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:02:50.002Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:04:42.444Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:06:07.358Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:09:20.463Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:09:38.625Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:10:05.565Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:10:34.148Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:22:05.812Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:23:59.834Z - [INFO   ] - Server 5160 running on port 8000
+2023-06-18T15:25:46.322Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:26:57.876Z - [ERROR  ] - Server error: Validation error
+2023-06-18T15:28:20.074Z - [ERROR  ] - Customer does not exists.
+2023-06-18T15:42:31.441Z - [INFO   ] - Server 12076 running on port 8000
+2023-06-18T15:42:35.808Z - [ERROR  ] - Invalid credential.
+2023-06-18T15:47:46.011Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:47:49.491Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T15:56:08.892Z - [INFO   ] - Server 7708 running on port 8000
+2023-06-18T15:56:46.029Z - [ERROR  ] - Server error: Cannot read properties of undefined (reading 'id')
+2023-06-18T15:57:16.749Z - [INFO   ] - Server 8096 running on port 8000
+2023-06-18T16:08:15.352Z - [ERROR  ] - Token is required!
+2023-06-18T16:08:40.057Z - [ERROR  ] - Token is required!
+2023-06-18T16:09:00.062Z - [ERROR  ] - Token is required!
+2023-06-18T16:09:54.085Z - [ERROR  ] - Token is required!
+2023-06-18T16:10:26.706Z - [ERROR  ] - Token is required!
+2023-06-18T16:11:04.447Z - [ERROR  ] - Token is required!
+2023-06-18T16:12:31.074Z - [ERROR  ] - Token is required!
+2023-06-18T16:12:39.079Z - [ERROR  ] - Token is required!
+2023-06-18T16:13:06.106Z - [ERROR  ] - Token is required!
+2023-06-18T16:13:55.194Z - [ERROR  ] - Token is required!
+2023-06-18T16:16:31.499Z - [INFO   ] - Server 3356 running on port 8000
+2023-06-18T16:16:51.060Z - [ERROR  ] - Token is required!
+2023-06-18T16:19:21.699Z - [ERROR  ] - Token is required!
+2023-06-18T16:19:21.909Z - [ERROR  ] - Token is required!
+2023-06-18T16:19:22.405Z - [ERROR  ] - Token is required!
+2023-06-18T16:21:00.411Z - [ERROR  ] - Token is required!
+2023-06-18T16:21:42.979Z - [ERROR  ] - Token is required!
+2023-06-18T16:23:22.122Z - [ERROR  ] - Token is required!
+2023-06-18T16:23:25.441Z - [ERROR  ] - Token is required!
+2023-06-18T16:23:40.906Z - [ERROR  ] - Token is required!
+2023-06-18T16:23:54.779Z - [ERROR  ] - Token is required!
+2023-06-18T16:24:26.984Z - [ERROR  ] - Token is required!
+2023-06-18T16:24:27.083Z - [ERROR  ] - Token is required!
+2023-06-18T16:24:46.308Z - [ERROR  ] - Token is required!
+2023-06-18T16:33:44.455Z - [INFO   ] - Server 12812 running on port 8000
+2023-06-18T17:22:33.600Z - [ERROR  ] - Customer does not exists.
+2023-06-18T17:25:47.358Z - [ERROR  ] - Customer does not exists.
+2023-06-18T18:07:42.065Z - [INFO   ] - Server 6812 running on port 8000
+2023-06-18T18:21:04.829Z - [ERROR  ] - Customer exists but required pin to login
+2023-06-18T19:02:00.451Z - [INFO   ] - Server 2500 running on port 8000
+2023-06-18T20:07:26.282Z - [INFO   ] - Server 2652 running on port 8000
+2023-06-18T20:08:27.453Z - [INFO   ] - Server 11680 running on port 8000
+2023-06-19T16:07:41.174Z - [INFO   ] - Server 11984 running on port 8000
+2023-06-19T16:50:54.076Z - [INFO   ] - Server 11972 running on port 8000
+2023-06-19T16:52:36.853Z - [INFO   ] - Server 9484 running on port 8000
+2023-06-19T16:56:05.384Z - [INFO   ] - Server 12020 running on port 8000
+2023-06-19T16:56:10.806Z - [INFO   ] - Server 8472 running on port 8000
+2023-06-19T16:56:56.157Z - [INFO   ] - Server 12660 running on port 8000
+2023-06-19T16:57:07.635Z - [INFO   ] - Server 10220 running on port 8000
+2023-06-19T16:57:15.780Z - [INFO   ] - Server 12984 running on port 8000
+2023-06-19T16:57:23.979Z - [INFO   ] - Server 6552 running on port 8000
+2023-06-19T16:59:26.130Z - [INFO   ] - Server 13352 running on port 8000
+2023-06-19T16:59:52.425Z - [INFO   ] - Server 6080 running on port 8000
+2023-06-19T17:00:25.916Z - [INFO   ] - Server 3568 running on port 8000
+2023-06-19T17:00:38.004Z - [INFO   ] - Server 7732 running on port 8000
+2023-06-21T18:23:13.949Z - [INFO   ] - Server 3800 running on port 8000
+2023-06-21T19:14:20.157Z - [INFO   ] - Server 5248 running on port 8000
+2023-06-21T19:14:25.947Z - [INFO   ] - Server 15512 running on port 8000
+2023-06-21T19:48:36.476Z - [INFO   ] - Server 15768 running on port 8000
+2023-06-21T19:48:49.456Z - [INFO   ] - Server 7572 running on port 8000
+2023-06-21T19:49:28.643Z - [INFO   ] - Server 8168 running on port 8000
+2023-06-21T19:50:08.698Z - [INFO   ] - Server 14788 running on port 8000
+2023-06-21T19:50:32.899Z - [INFO   ] - Server 15216 running on port 8000
+2023-06-21T19:52:30.359Z - [INFO   ] - Server 3304 running on port 8000
+2023-06-21T19:53:15.639Z - [INFO   ] - Server 2316 running on port 8000
+2023-06-21T19:53:52.840Z - [INFO   ] - Server 5556 running on port 8000
+2023-06-21T19:54:03.889Z - [INFO   ] - Server 4196 running on port 8000
+2023-06-21T20:31:30.946Z - [INFO   ] - Server 756 running on port 8000
+2023-06-21T20:31:38.663Z - [INFO   ] - Server 8172 running on port 8000
+2023-06-21T20:31:46.074Z - [INFO   ] - Server 7092 running on port 8000
+2023-06-21T20:31:48.080Z - [INFO   ] - Server 2172 running on port 8000
+2023-06-21T20:33:22.842Z - [INFO   ] - Server 5416 running on port 8000
+2023-06-21T20:34:18.925Z - [INFO   ] - Server 8368 running on port 8000
+2023-06-21T20:34:24.014Z - [INFO   ] - Server 11420 running on port 8000
+2023-06-21T20:34:32.105Z - [INFO   ] - Server 2600 running on port 8000
+2023-06-21T20:34:41.896Z - [INFO   ] - Server 13864 running on port 8000
+2023-06-21T20:34:46.909Z - [INFO   ] - Server 12680 running on port 8000
+2023-06-21T20:34:50.568Z - [INFO   ] - Server 8752 running on port 8000
+2023-06-21T20:35:54.780Z - [INFO   ] - Server 4020 running on port 8000
+2023-06-21T20:35:58.348Z - [INFO   ] - Server 17332 running on port 8000
+2023-06-21T20:36:03.192Z - [INFO   ] - Server 5436 running on port 8000
+2023-06-21T20:36:06.758Z - [INFO   ] - Server 5316 running on port 8000
+2023-06-21T20:36:16.487Z - [INFO   ] - Server 9152 running on port 8000
+2023-06-21T20:36:21.727Z - [INFO   ] - Server 9304 running on port 8000
+2023-06-21T20:36:29.413Z - [INFO   ] - Server 14712 running on port 8000
+2023-06-21T20:37:31.068Z - [INFO   ] - Server 1644 running on port 8000
+2023-06-21T20:37:39.282Z - [INFO   ] - Server 1164 running on port 8000
+2023-06-21T20:37:45.860Z - [INFO   ] - Server 13564 running on port 8000
+2023-06-21T20:37:50.009Z - [INFO   ] - Server 740 running on port 8000
+2023-06-21T20:37:57.398Z - [INFO   ] - Server 16908 running on port 8000
+2023-06-21T20:38:03.238Z - [INFO   ] - Server 15728 running on port 8000
+2023-06-21T20:38:08.327Z - [INFO   ] - Server 8336 running on port 8000
+2023-06-21T20:38:13.261Z - [INFO   ] - Server 12832 running on port 8000
+2023-06-21T20:38:15.635Z - [INFO   ] - Server 10392 running on port 8000
+2023-06-21T20:38:28.807Z - [INFO   ] - Server 15100 running on port 8000
+2023-06-21T20:41:44.463Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.512Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.534Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.566Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.599Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.644Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.782Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.813Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.865Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.901Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.945Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:44.999Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.113Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.130Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.153Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.213Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.328Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.436Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.633Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.680Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.759Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.844Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.904Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:45.959Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.135Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.147Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.153Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.163Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.169Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.229Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.392Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.417Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.477Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.530Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.555Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.615Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.784Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.837Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.900Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:46.977Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.045Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.087Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.204Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.284Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.332Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.385Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.480Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.532Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.648Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.672Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.709Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.755Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.813Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:47.935Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.041Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.087Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.141Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.197Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.244Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.316Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.366Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.418Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.481Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.533Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.548Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.586Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.681Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.706Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.749Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.787Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.833Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.885Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:48.978Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.016Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.052Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.097Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.124Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.166Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.252Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.301Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.352Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.367Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.402Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.439Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.561Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.616Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.643Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.688Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.749Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.785Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.845Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.867Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.914Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.936Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:49.975Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.062Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.084Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.120Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.159Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.202Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.252Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.285Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.307Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.348Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.380Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.398Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.430Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.498Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.516Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.556Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.572Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.618Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.691Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.718Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.734Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.748Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.863Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.927Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:50.999Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.045Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.122Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.163Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.200Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.234Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.263Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.285Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.328Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.341Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.401Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.426Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.437Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.443Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.499Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.534Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.668Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.736Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.786Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.842Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:51.913Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.002Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.044Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.077Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.106Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.131Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.161Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.183Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.218Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.262Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.276Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.292Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.376Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.386Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.406Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.418Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.435Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.469Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.611Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.623Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.634Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.649Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.660Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.681Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.812Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.829Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.835Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.852Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.884Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.897Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.957Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:52.985Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.001Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.015Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.034Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.057Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.111Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.130Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.141Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.151Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.160Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.197Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.233Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.264Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.284Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.299Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.306Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.330Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.352Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.384Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.397Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.403Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.419Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.445Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.465Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.490Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:41:53.499Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:45:05.765Z - [INFO   ] - Server 10196 running on port 8000
+2023-06-21T20:54:58.384Z - [ERROR  ] - Server error: db.BasketItems.increament is not a function
+2023-06-21T20:58:11.361Z - [INFO   ] - Server 12668 running on port 8000
+2023-06-21T20:58:18.040Z - [ERROR  ] - Server error: db.BasketItems.increaseQuantity is not a function
+2023-06-21T20:58:18.107Z - [ERROR  ] - Server error: db.BasketItems.increaseQuantity is not a function
+2023-06-21T20:58:36.714Z - [INFO   ] - Server 472 running on port 8000
+2023-06-21T20:58:40.914Z - [INFO   ] - Server 12804 running on port 8000
+2023-06-21T20:58:46.858Z - [ERROR  ] - Server error: db.BasketItems.increaseQuantity is not a function
+2023-06-21T20:59:17.758Z - [INFO   ] - Server 468 running on port 8000
+2023-06-21T20:59:59.045Z - [INFO   ] - Server 13404 running on port 8000
+2023-06-21T21:01:42.451Z - [INFO   ] - Server 11328 running on port 8000
+2023-06-21T21:01:49.966Z - [INFO   ] - Server 6152 running on port 8000
+2023-06-21T21:02:38.028Z - [INFO   ] - Server 16024 running on port 8000
+2023-06-21T21:02:51.267Z - [INFO   ] - Server 2520 running on port 8000
+2023-06-21T21:02:58.849Z - [INFO   ] - Server 16920 running on port 8000
+2023-06-21T21:03:04.397Z - [INFO   ] - Server 9152 running on port 8000
+2023-06-21T21:03:13.510Z - [INFO   ] - Server 12244 running on port 8000
+2023-06-21T21:03:16.470Z - [INFO   ] - Server 7924 running on port 8000
+2023-06-21T21:03:28.631Z - [INFO   ] - Server 5920 running on port 8000
+2023-06-21T21:03:48.622Z - [INFO   ] - Server 15956 running on port 8000
+2023-06-21T21:05:03.977Z - [INFO   ] - Server 6736 running on port 8000
+2023-06-21T21:05:06.255Z - [INFO   ] - Server 10032 running on port 8000
+2023-06-21T21:05:22.239Z - [INFO   ] - Server 6976 running on port 8000
+2023-06-21T21:05:24.948Z - [INFO   ] - Server 13032 running on port 8000
+2023-06-21T21:05:28.626Z - [INFO   ] - Server 1136 running on port 8000
+2023-06-21T21:05:33.926Z - [INFO   ] - Server 4168 running on port 8000
+2023-06-21T21:05:54.540Z - [INFO   ] - Server 10060 running on port 8000
+2023-06-21T21:05:56.761Z - [INFO   ] - Server 8172 running on port 8000
+2023-06-21T21:06:10.143Z - [INFO   ] - Server 4008 running on port 8000
+2023-06-21T21:06:20.628Z - [INFO   ] - Server 16536 running on port 8000
+2023-06-21T21:06:28.553Z - [INFO   ] - Server 8724 running on port 8000
+2023-06-21T21:06:35.919Z - [INFO   ] - Server 752 running on port 8000
+2023-06-21T21:06:42.829Z - [INFO   ] - Server 9488 running on port 8000
+2023-06-21T21:06:51.814Z - [INFO   ] - Server 11792 running on port 8000
+2023-06-21T21:07:04.315Z - [INFO   ] - Server 12408 running on port 8000
+2023-06-21T21:07:15.937Z - [INFO   ] - Server 16208 running on port 8000
+2023-06-21T21:07:26.053Z - [INFO   ] - Server 14060 running on port 8000
+2023-06-21T21:07:35.237Z - [INFO   ] - Server 8696 running on port 8000
+2023-06-21T21:07:46.616Z - [INFO   ] - Server 428 running on port 8000
