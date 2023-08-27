@@ -25,6 +25,11 @@ class CustomerService {
         return newCustomer;
     };
 
+    async update(id, data) {
+        const updatedCust = await db.Customer.update(data, { where: { id: id } });
+        return true;
+    };
+
     async login(mobile, pin) {
         if (!mobile) throw ApiError.badRequest("Invalid credential.");
 

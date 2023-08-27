@@ -25,12 +25,8 @@ class ProductCoverImageService {
     async update(productId, coverImage) {
         let updateCoverImage = await db.ProductCoverImage.findOne({ where: { productId: productId } });
 
-        // updateCoverImage.coverImage = coverImage;
-        // await updateCoverImage.save({ fields: ["coverImage"] });
-
         updateCoverImage.set({ coverImage: coverImage });
         updateCoverImage = await updateCoverImage.save();
-
         return updateCoverImage;
     };
 

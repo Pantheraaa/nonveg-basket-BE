@@ -2,8 +2,10 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class Customer extends Model {
-        static associate({ Basket }) {
+        static associate({ Basket, CustomerAddress, CustomerOrder }) {
             this.hasOne(Basket);
+            this.hasMany(CustomerAddress);
+            this.hasMany(CustomerOrder);
         };
     };
 

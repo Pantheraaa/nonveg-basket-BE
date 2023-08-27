@@ -4,7 +4,6 @@ const ApiError = require("../middlewares/apiError");
 const Response = require("../middlewares/response");
 const ProductService = require("../Services/product");
 
-// Setup multer:
 const newProduct = async (req, res) => {
     const data = productImages(req.body, req.files);
     try {
