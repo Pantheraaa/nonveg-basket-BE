@@ -1,20 +1,25 @@
 const productImages = (body, files) => {
-    const { coverImage, images } = files;
+    // const { cover_image, primary_image, secondary_image } = files;
 
-    const productImages = [];
+    const images = [];
+    for (const file in files) {
+        images.push(files[file]);
+    }
+
+    const result = {
+        images: []
+    };
+
     images?.map((image) => {
-        productImages.push(image.path);
+        if (image[0].fieldname === "cover_image")
+            result.coverImage = image[0].path;
+
+        else {
+            result.images.push(image[0].path);
+        }
     })
 
-    // return {
-    //     coverImage: coverImage ? coverImage[0]?.path : undefined,
-    //     images: productImages.length ? productImages : undefined
-    // };
-
-    if (coverImage) body.coverImage = coverImage[0]?.path;
-    if (productImages.length) body.images = productImages;
-
-    return body;
+    return { ...body, ...result };
 };
 
 module.exports = {

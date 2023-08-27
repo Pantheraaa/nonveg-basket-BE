@@ -7,12 +7,16 @@ class ProductTagsService {
             ProductId: productId,
             tag: tag,
         });
+
+        return true;
     }
 
     async insertMany(productId, tags) {
         for await (const tag of tags) {
             await this.insert(productId, tag);
         };
+
+        return true;
     };
 };
 

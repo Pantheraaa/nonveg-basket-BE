@@ -29,6 +29,12 @@ class CategoryService {
         return category;
     };
 
+    async findCategoryIdByName(category) {
+        const fetchedCategory = await db.Categories.findOne({ where: { category: category } });
+
+        return fetchedCategory?.dataValues?.id;
+    }
+
     async update(categoryId, category) {
         const fetchedCategory = await db.Categories.findByPk(categoryId);
 

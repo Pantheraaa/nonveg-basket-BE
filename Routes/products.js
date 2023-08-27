@@ -1,12 +1,12 @@
 const express = require("express");
 const upload = require("../middlewares/upload");
-const { newProduct, getProducts, getActiveProducts, updateProduct, getOneProduct, deleteProduct } = require("../Controllers/product");
+const { newProduct, getProducts, getActiveProducts, updateProduct, getOneProduct, deleteProduct, updateProductStatus } = require("../Controllers/product");
 
 let router = express.Router();
 
 const multiUpload = upload.fields([
     {
-        name: "coverImage",
+        name: "cover_image",
         maxCount: 1,
     },
     {
@@ -15,11 +15,12 @@ const multiUpload = upload.fields([
     }
 ]);
 
-router.get("/active", getActiveProducts);   //
-router.get("/:productId", getOneProduct);   // Done
+router.patch("/status/:productId", updateProductStatus);
+router.get("/active", getActiveProducts);
+router.get("/:productId", getOneProduct);
 router.patch("/:productId", multiUpload, updateProduct);    // Need changes, images & tags not updating due to login
 router.delete("/:productId", deleteProduct);
-router.post("/", multiUpload, newProduct);  // DOne
-router.get("/", getProducts);   // DOne
+router.post("/", multiUpload, newProduct);
+router.get("/", getProducts);
 
 module.exports = router;
