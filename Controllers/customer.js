@@ -63,7 +63,20 @@ const customerAuthentication = async (req, res) => {
 
         return Response.error(res, ApiError.internal(err));
     }
-}
+};
+
+const customerOrders = async (req, res) => {
+    const { id } = req.customer;
+    try {
+        const result = await CustomerService.orders(id);
+        return Response.success(res, `Customer orders found successfully.`, result);
+    } catch (err) {
+        if (err instanceof ApiError)
+            return Response.error(res, err);
+
+        return Response.error(res, ApiError.internal(err));
+    }
+};
 
 module.exports = {
     getCustomers,
@@ -71,4 +84,5 @@ module.exports = {
     updateCustomer,
     customerLogin,
     customerAuthentication,
+    customerOrders,
 }

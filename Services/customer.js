@@ -49,6 +49,19 @@ class CustomerService {
         const customer = await db.Customer.findOne({ where: { mobile: mobile } });
         return customer;
     };
+
+    async orders(customerId) {
+        // const orders = await db.CustomerOrder.findAll({ where: { customer_id: customerId } });
+        const query = `SELECT * FROM customerorder WHERE customer_id = "${customerId}" AND status != "Attempted" AND deleted_at IS NULL`;
+        console.log(">>>>", query)
+        // await db.sequelize.query(`
+        // UPDATE BasketItems SET quantity = quantity + ${quantity || 1} WHERE id = "${basketItemId}"`,
+        //     { type: db.sequelize.QueryTypes.UPDATE }
+        // );
+
+        const orders = await db.sequelize.query(query, { type: db.sequelize.QueryTypes.SELECT });
+        return orders;
+    }
 };
 
 module.exports = new CustomerService();
