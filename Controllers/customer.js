@@ -30,7 +30,7 @@ const updateCustomer = async (req, res) => {
     const customerId = req.customer.id;
     try {
         const result = await CustomerService.update(customerId, req.body);
-        return Response.success(res, `Customer created successfully.`, result);
+        return Response.success(res, `Customer updated successfully.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);
@@ -69,7 +69,7 @@ const customerOrders = async (req, res) => {
     const { id } = req.customer;
     try {
         const result = await CustomerService.orders(id);
-        return Response.success(res, `Customer orders found successfully.`, result);
+        return Response.success(res, `Customer ${result.length} order(s) found successfully.`, result);
     } catch (err) {
         if (err instanceof ApiError)
             return Response.error(res, err);

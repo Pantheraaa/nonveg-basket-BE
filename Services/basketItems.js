@@ -1,4 +1,5 @@
 const db = require("../Models");
+const { Op } = require("sequelize");
 
 class BasketItemsServices {
     async insert(customerId, productId, quantity, price) {
@@ -46,8 +47,22 @@ class BasketItemsServices {
         return item.dataValues.price;
     }
 
-    async removeMany(items) {
-        const query = ""
+    async removeByOrderId(customerOrder, basketId) {
+        // find all product ids by order id:
+        const query = "SELECT product_id FROM CustomerOrderItems WHERE customer_order_id = ?";
+        const [prodIds,] = await db.sequelize.query(query, { replacements: [customerOrder.dataValues.id] });
+        const ids = prodIds?.map(prod => prod.product_id);
+
+        // Remove product ids from basketItems:
+        await db.BasketItems.destroy({
+            where: {
+                basketId: basketId,
+                productId: {
+                    [Op.in]: ids
+                }
+            }
+        })
+        return prodIds;
     }
 
     async increaseQuantity(basketItemId, quantity) {

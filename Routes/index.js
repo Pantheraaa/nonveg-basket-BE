@@ -1,6 +1,6 @@
+const ENDPOINT = "/api/V1";
 const express = require("express");
 const path = require("path");
-const ENDPOINT = "/api/V1";
 const user = require("./users.js");
 const product = require("./products.js");
 const category = require("./category.js");

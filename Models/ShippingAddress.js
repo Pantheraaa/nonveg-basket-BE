@@ -3,7 +3,7 @@ const { Model } = require("sequelize");
 module.exports = function (sequelize, DataTypes) {
     class ShippingAddress extends Model {
         static associate({ CustomerOrder }) {
-            this.belongsTo(CustomerOrder, {foreignKey: "customer_order_id", as: "customerOrder"});
+            this.belongsTo(CustomerOrder, { foreignKey: "customer_order_id", as: "customerOrder" });
         };
     };
 

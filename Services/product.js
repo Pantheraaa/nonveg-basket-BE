@@ -6,6 +6,8 @@ const ProductTagsService = require("../Services/productTags");
 const ProductCategoryService = require("../Services/productCategory");
 const ApiError = require("../middlewares/apiError");
 const CategoryService = require("./category");
+const { Op } = require("sequelize");
+
 class ProductService {
     async create(data) {
         const [product, created] = await db.Product.findOrCreate({
@@ -75,6 +77,23 @@ class ProductService {
 
         product = this.formatProducts(product);
         return product;
+    };
+
+    async findMutiple(productIds) {
+        let products = await db.Product.findAll({
+            attributes: ["id", "sellPrice"],
+            where: {
+                id: {
+                    [Op.in]: productIds
+                }
+            }
+        });
+
+        if (!products)
+            throw ApiError.notFound("Items not found.");
+
+        // product = this.formatProducts(product);
+        return products;
     };
 
     async update(productId, data) {

@@ -2,11 +2,12 @@ const { Model } = require("sequelize");
 
 module.exports = function (sequelize, DataTypes) {
     class CustomerOrder extends Model {
-        static associate({ Customer, DeliverySlots, DeliveryTimings, PaymentDetails }) {
+        static associate({ Customer, DeliverySlots, DeliveryTimings, PaymentDetails, CustomerOrderItems }) {
             this.belongsTo(Customer, { foreignKey: "customer_id", as: "customer" });
-            this.hasOne(DeliverySlots, {foreignKey: "delivery_slot_id", as: "DeliverySlot"})
-            this.hasOne(DeliveryTimings, {foreignKey: "delivery_timing_id", as: "DeliveryTiming"})
-            this.hasOne(PaymentDetails, {foreignKey: "payment_detail_id", as: "PaymentDetail"})
+            this.hasOne(DeliverySlots, { foreignKey: "delivery_slot_id", as: "DeliverySlot" })
+            this.hasOne(DeliveryTimings, { foreignKey: "delivery_timing_id", as: "DeliveryTiming" })
+            this.belongsTo(PaymentDetails, { foreignKey: "payment_detail_id", as: "PaymentDetail" })
+            this.hasMany(CustomerOrderItems, { as: "items" })
         };
     };
 
@@ -59,7 +60,8 @@ module.exports = function (sequelize, DataTypes) {
             timestamps: true,
             paranoid: true,
             defaultScope: {
-                attributes: { exclude: ["updatedAt", "deletedAt"] }
+                // include: ["customer", "CustomerOrderItems"],
+                attributes: { exclude: ["updatedAt", "deletedAt", "CustomerId", "customer_id"] }
             }
         });
 

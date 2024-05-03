@@ -2,9 +2,8 @@ const db = require("../Models");
 const ApiError = require("../middlewares/apiError");
 
 class CustomerOrderService {
-    async create(data) {
+    async create(customerId, data) {
         const { address } = data;
-        console.log("ADD", address);
         const order = db.CustomerOrder.create({
             amount: data.totalAmount,
             payMode: data.payMode,
@@ -13,6 +12,7 @@ class CustomerOrderService {
             shipAlternateMobile: address.alternateMobile,
             shippingAddress: `${address.address} ${address.cityDistrictTown} ${address.landMark} ${address.locality} ${address.state} - ${address.pinCode}`,
             deliveryTimestamp: "2023-08-15",
+            customer_id: customerId
         });
 
         return order;

@@ -36,6 +36,7 @@ module.exports = function (sequelize, DataTypes) {
             timestamps: true,
             paranoid: true,
             defaultScope: {
+                include: ["product"],
                 attributes: { exclude: ["createdAt", "updatedAt", "deletedAt"] }
             }
         });

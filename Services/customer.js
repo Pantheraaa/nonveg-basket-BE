@@ -3,6 +3,7 @@ const ApiError = require("../middlewares/apiError");
 const bcrypt = require("bcrypt");
 const BasketServices = require("../Services/basket");
 const JwtUtils = require("../utils/jwt");
+const { Op } = require("sequelize");
 
 class CustomerService {
     async findAll() {
@@ -51,15 +52,40 @@ class CustomerService {
     };
 
     async orders(customerId) {
-        // const orders = await db.CustomerOrder.findAll({ where: { customer_id: customerId } });
-        const query = `SELECT * FROM customerorder WHERE customer_id = "${customerId}" AND status != "Attempted" AND deleted_at IS NULL`;
-        console.log(">>>>", query)
-        // await db.sequelize.query(`
-        // UPDATE BasketItems SET quantity = quantity + ${quantity || 1} WHERE id = "${basketItemId}"`,
-        //     { type: db.sequelize.QueryTypes.UPDATE }
-        // );
-
-        const orders = await db.sequelize.query(query, { type: db.sequelize.QueryTypes.SELECT });
+        const orders = await db.CustomerOrder.findAll({
+            where: {
+                customer_id: customerId,
+                status: {
+                    [Op.ne]: "Attempted"
+                }
+            },
+            include: [
+                {
+                    model: db.PaymentDetails,
+                    as: "PaymentDetail"
+                },
+                {
+                    model: db.CustomerOrderItems,
+                    as: "items",
+                    attributes: {
+                        exclude: ["amountPerUnit", "totalAmount", "CustomerOrderId", "customer_order_id", "productId", "createdAt", "updatedAt", "deletedAt", "ProductImages"]
+                    },
+                    include: [{
+                        model: db.Product,
+                        as: "product",
+                        attributes: {
+                            exclude: ["quantityPerUnit", "unitPrice", "sellPrice", "weight", "active", "createdAt", "updatedAt", "deletedAt"]
+                        },
+                    }],
+                },
+            ],
+            order: [
+                ['createdAt', "DESC"]
+            ],
+            attributes: {
+                exclude: ["status", "shipTo", "shipMobile", "shipAlternateMobile", "shippingAddress", "deliveryTimestamp", "createdAt"]
+            }
+        });
         return orders;
     }
 };

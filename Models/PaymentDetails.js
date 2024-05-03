@@ -3,7 +3,7 @@ const { Model } = require("sequelize");
 module.exports = function (sequelize, DataTypes) {
     class PaymentDetails extends Model {
         static associate({ CustomerOrder }) {
-            this.belongsTo(CustomerOrder, { foreignKey: "customer_order_id", as: "customerOrder" });
+            this.belongsTo(CustomerOrder, { as: "customerOrder" });
             // this.hasOne(DeliverySlots, { foreignKey: "delivery_slot_id", as: "DeliverySlot" })
             // this.hasOne(DeliveryTimings, { foreignKey: "delivery_timing_id", as: "DeliveryTiming" })
         };
@@ -55,7 +55,7 @@ module.exports = function (sequelize, DataTypes) {
             type: DataTypes.STRING,
         },
         details: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(1000),
             allowNull: false,
         },
         paymentStatus: {

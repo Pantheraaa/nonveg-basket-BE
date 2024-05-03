@@ -7,7 +7,6 @@ const newUser = async (req, res) => {
     const data = req.body;
     try {
         const result = await UserService.create(data);
-
         return Response.success(res, "User created successfully.", result);
     } catch (err) {
         if (err instanceof ApiError)

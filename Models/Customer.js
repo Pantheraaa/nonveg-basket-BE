@@ -22,7 +22,7 @@ module.exports = function (sequelize, DataTypes) {
             // defaultValue:""
         },
         mobile: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(10),
             allowNull: false,
             unique: true,
         },

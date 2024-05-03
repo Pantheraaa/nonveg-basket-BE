@@ -5,8 +5,9 @@ class UserValidation{
         const dataLenghth = Object.keys(data).length;
         if (!dataLenghth) throw ApiError.badRequest("Data is required to create new user");
         
-        if (!data.mobile || !data.email) throw ApiError.badRequest("Email or mobile is required");
-
+        if (!data.name) throw ApiError.badRequest("Name is required");
+        if (!data.mobile) throw ApiError.badRequest("Mobile is required");
+        if (!data.email) throw ApiError.badRequest("Email is required");
         if (!data.password) throw ApiError.badRequest("Password is required");
         
         return true;
