@@ -12,7 +12,7 @@ const corsOptions = {
 app.options('*', cors());
 app.use(cors(corsOptions));
 
-// Initializing routes:
+// Initializing routes
 router(app);
 
 module.exports = app;
