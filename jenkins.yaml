@@ -1,14 +1,14 @@
 pipeline:
   agent: any
   stages:
-    - stage: Build
-      steps:
-        - sh: npm install
-    - stage: Test
-      steps:
-        - sh: npm test
-    - stage: Deploy
-      steps:
-        - sh: |
-            if [ "${BRANCH_NAME}" == "main" ]; then ./deploy.sh production; fi
-            if [ "${BRANCH_NAME}" == "dev" ]; then ./deploy.sh development; fi
+  - stage: Build
+    steps:
+    - sh: npm install
+  - stage: Test
+    steps:
+    - sh: npm test
+  - stage: Deploy
+    steps:
+    - sh: |
+        if [ "${BRANCH_NAME}" == "main" ]; then ./deploy.sh production; fi
+        if [ "${BRANCH_NAME}" == "dev" ]; then ./deploy.sh development; fi
